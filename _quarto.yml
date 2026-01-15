@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "#AASC2026"
+  page-footer: |
+   Sponsored by VSNi 
+   <br><br>
+   Australiasian Applied Statistics Conference, Sunshine Coast, Australia
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Program
+        menu: 
+          -  href: keynote.qmd
+          -  href: workshop.qmd
+          - href: social.qmd
+      - abstracts.qmd 
+      - registration.qmd
+      - text: About 
+        menu: 
+          - about.qmd
+          - location.qmd
+          - organisers.qmd
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+editor: visual
+

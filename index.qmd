@@ -1,0 +1,33 @@
+---
+title: "AASC 2026"
+---
+
+We would like to cordially invite you to Queensland for the Australasian Applied Statistic Conference 2026 (AASC2026) to be held from the 30th November to the 4th December 2026 at the [**Mantra Mooloolaba Beach**](/https://www.mantramooloolababeach.com.au/) on the Sunshine Coast.
+
+![](images/MooloolabaBeach.jpg)
+
+## Register your interest
+If you would like to keep up to date with any major announcements regarding the AASC 2026 conference, [please register your interest here](https://forms.office.com/r/YDFLimcmGj) 
+
+## Sponsorship 
+
+If you or your organisation are interested in sponsoring the conference, please email interest to [michael.mumford@dpi.qld.gov.au](mailto:michael.mumford@dpi.qld.gov.au)
+
+## Contact Information
+
+For general inquiries regarding the AASC 2026 conference, please contact the secretary Michael Mumford at [michael.mumford@dpi.qld.gov.au](mailto:michael.mumford@dpi.qld.gov.au)
+
+ 
+## <i class="fas fa-calendar"></i> Important dates
+
+{{< include _dates.qmd >}}
+
+<br>
+
+
+
+
+
+
+
+

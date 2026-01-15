@@ -4,7 +4,7 @@ title: "Organisers"
 
 ## Local organising committee
 
-- Bethany Rognoni (UniSQ, Chair)
+- Bethany Rognoni (UniSQ, Lead)
 - Angela Anderson (QDPI)
 - Clayton Forknall (UA)
 - David Reid (QDPI)
@@ -15,19 +15,19 @@ title: "Organisers"
 
 ## Scientific committee
 
-- Colleen Hunt (QDPI, Chair)
+- Colleen Hunt (QDPI, Lead)
 - David Baird (VSNi)
-- Helena Oakey (UA)
+- Helena Oakey (SAHMRI)
 - Jin Yoon (CSIRO)
-- Pauline Ding (?)
-- Rebecca O'Leary (UWA)
-- Ruth Butler (?)
+- Pauline Ding (UoW)
+- Rebecca O'Leary (Curtin)
+- Ruth Butler (StatsWork)
 - Vanessa Cave (VSNi)
 
 
 ## Website team
 
-- Michael Mumford (QDPI, Chair)
+- Michael Mumford (QDPI, Lead)
 - Bethany Rognoni (UniSQ)
 - Colleen Hunt (QDPI)
 - Vanessa Cave (VSNi)

@@ -1,10 +1,80 @@
 [
   {
+    "objectID": "workshop.html",
+    "href": "workshop.html",
+    "title": "Workshop",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "registration.html",
+    "href": "registration.html",
+    "title": "Registration",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "registration.html#key-themes",
+    "href": "registration.html#key-themes",
+    "title": "Registration",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "registration.html#submission-guidelines",
+    "href": "registration.html#submission-guidelines",
+    "title": "Registration",
+    "section": "Submission guidelines",
+    "text": "Submission guidelines\nTBA"
+  },
+  {
+    "objectID": "registration.html#cancellation-policy",
+    "href": "registration.html#cancellation-policy",
+    "title": "Registration",
+    "section": "Cancellation policy",
+    "text": "Cancellation policy\nTBA\nFor questions or further information, please contact michael.mumford@dpi.qld.gov.au"
+  },
+  {
+    "objectID": "location.html",
+    "href": "location.html",
+    "title": "Location",
+    "section": "",
+    "text": "The conference venue is located in the heart of Mooloolaba, which is a short 12 minute drive from the Sunshine Coast airport. Direct flights to and from the Sunshine Coast are available via Sydney, Melbourne, Adelaide, Cairns, and Auckland. Alternatively, the conference venue is about a 90 minute drive from Brisbane domestic and international airport, with public transport options available."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "AASC 2026",
+    "title": "Australasian Applied Statistics Conference 2026",
     "section": "",
     "text": "We would like to cordially invite you to Queensland for the Australasian Applied Statistic Conference 2026 (AASC2026) to be held from the 30th November to the 4th December 2026 at the Mantra Mooloolaba Beach on the Sunshine Coast."
+  },
+  {
+    "objectID": "index.html#register-your-interest",
+    "href": "index.html#register-your-interest",
+    "title": "Australasian Applied Statistics Conference 2026",
+    "section": "Register your interest",
+    "text": "Register your interest\nIf you would like to keep up to date with any major announcements regarding the AASC 2026 conference, please register your interest here"
+  },
+  {
+    "objectID": "index.html#sponsorship",
+    "href": "index.html#sponsorship",
+    "title": "Australasian Applied Statistics Conference 2026",
+    "section": "Sponsorship",
+    "text": "Sponsorship\nIf you or your organisation are interested in sponsoring the conference, please email interest to michael.mumford@dpi.qld.gov.au"
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Australasian Applied Statistics Conference 2026",
+    "section": "Contact Information",
+    "text": "Contact Information\nFor general inquiries regarding the AASC 2026 conference, please contact the secretary Michael Mumford at michael.mumford@dpi.qld.gov.au"
+  },
+  {
+    "objectID": "index.html#important-dates",
+    "href": "index.html#important-dates",
+    "title": "Australasian Applied Statistics Conference 2026",
+    "section": " Important dates",
+    "text": "Important dates\n\n\n\nDate\n \n\n\n\n\nTBA\nOpen for abstract submission\n\n\nTBA\nOpen for registration\n\n\nTBA\nClosing date for abstract submission\n\n\nTBA\nNotify acceptance of abstracts\n\n\nTBA\nClose for early bird registration\n\n\nNov 29\nWorkshop\n\n\nNov 30 - Dec 4\nConference"
   },
   {
     "objectID": "about.html",
@@ -12,6 +82,20 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "abstracts.html",
+    "href": "abstracts.html",
+    "title": "Call for abstracts",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "keynote.html",
+    "href": "keynote.html",
+    "title": "Keynote",
+    "section": "",
+    "text": "TBA"
   },
   {
     "objectID": "organisers.html",
@@ -42,94 +126,10 @@
     "text": "Website team\n\nMichael Mumford (QDPI, Chair)\nBethany Rognoni (UniSQ)\nColleen Hunt (QDPI)\nVanessa Cave (VSNi)"
   },
   {
-    "objectID": "index.html#contact-information",
-    "href": "index.html#contact-information",
-    "title": "AASC 2026",
-    "section": "Contact Information",
-    "text": "Contact Information\nFor general inquiries regarding the AASC 2026 conference, please contact the secretary Michael Mumford at michael.mumford@dpi.qld.gov.au"
-  },
-  {
-    "objectID": "index.html#sponsorship",
-    "href": "index.html#sponsorship",
-    "title": "AASC 2026",
-    "section": "Sponsorship",
-    "text": "Sponsorship\nIf you or your organisation are interested in sponsoring the conference, please email interest to michael.mumford@dpi.qld.gov.au"
-  },
-  {
-    "objectID": "keynote.html",
-    "href": "keynote.html",
-    "title": "Keynote",
-    "section": "",
-    "text": "TBA"
-  },
-  {
-    "objectID": "index.html#register-your-interest",
-    "href": "index.html#register-your-interest",
-    "title": "AASC 2026",
-    "section": "Register your interest",
-    "text": "Register your interest\nIf you would like to keep up to date with any major announcements regarding the AASC 2026 conference, please register your interest here"
-  },
-  {
-    "objectID": "workshop.html",
-    "href": "workshop.html",
-    "title": "Workshop",
-    "section": "",
-    "text": "TBA"
-  },
-  {
-    "objectID": "index.html#important-dates",
-    "href": "index.html#important-dates",
-    "title": "AASC 2026",
-    "section": " Important dates",
-    "text": "Important dates\n\n\n\nDate\n \n\n\n\n\nTBA\nOpen for abstract submission\n\n\nTBA\nOpen for registration\n\n\nTBA\nClosing date for abstract submission\n\n\nTBA\nNotify acceptance of abstracts\n\n\nTBA\nClose for early bird registration\n\n\nNov 29\nWorkshop\n\n\nNov 30 - Dec 4\nConference"
-  },
-  {
-    "objectID": "registration.html",
-    "href": "registration.html",
-    "title": "Registration",
-    "section": "",
-    "text": "TBA"
-  },
-  {
-    "objectID": "registration.html#key-themes",
-    "href": "registration.html#key-themes",
-    "title": "Registration",
-    "section": "",
-    "text": "TBA"
-  },
-  {
-    "objectID": "registration.html#submission-guidelines",
-    "href": "registration.html#submission-guidelines",
-    "title": "Registration",
-    "section": "Submission guidelines",
-    "text": "Submission guidelines\nTBA"
-  },
-  {
-    "objectID": "abstracts.html",
-    "href": "abstracts.html",
-    "title": "Call for abstracts",
-    "section": "",
-    "text": "TBA"
-  },
-  {
     "objectID": "social.html",
     "href": "social.html",
     "title": "Social activities",
     "section": "",
     "text": "TBA"
-  },
-  {
-    "objectID": "registration.html#cancellation-policy",
-    "href": "registration.html#cancellation-policy",
-    "title": "Registration",
-    "section": "Cancellation policy",
-    "text": "Cancellation policy\nTBA\nFor questions or further information, please contact michael.mumford@dpi.qld.gov.au"
-  },
-  {
-    "objectID": "location.html",
-    "href": "location.html",
-    "title": "Location",
-    "section": "",
-    "text": "The conference venue is located in the heart of Mooloolaba, which is a short 12 minute drive from the Sunshine Coast airport. Direct flights to and from the Sunshine Coast are available via Sydney, Melbourne, Adelaide, Cairns, and Auckland. Alternatively, the conference venue is about a 90 minute drive from Brisbane domestic and international airport, with public transport options available."
   }
 ]

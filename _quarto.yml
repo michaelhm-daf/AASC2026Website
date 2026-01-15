@@ -22,7 +22,6 @@ website:
       - registration.qmd
       - text: About 
         menu: 
-          - about.qmd
           - location.qmd
           - organisers.qmd
 format:

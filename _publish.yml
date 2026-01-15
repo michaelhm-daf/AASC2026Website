@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: fe31c3bf-be08-46a0-a8b3-f862517e77f5
+      url: https://flourishing-lokum-dc16c2.netlify.app

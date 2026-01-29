@@ -23,6 +23,7 @@ website:
       - text: About 
         menu: 
           - location.qmd
+          - accomodation.qmd
           - organisers.qmd
 format:
   html:

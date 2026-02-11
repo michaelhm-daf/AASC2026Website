@@ -2,7 +2,7 @@
 title: "Australasian Applied Statistics Conference 2026"
 ---
 
-We would like to cordially invite you to Queensland for the Australasian Applied Statistic Conference 2026 (AASC2026) to be held from the 30th November to the 4th December 2026 at the [**Mantra Mooloolaba Beach**](https://www.mantramooloolababeach.com.au/) on the Sunshine Coast. AASC2026 is for anyone passionate about real-world data analysis, providing opportunities to exchange ideas in all areas of applied statistics, as well as encouraging networking and collaboration. Whether you are a student, researcher, industry representative, or simply have a keen interest in anything related to data science, AASC 2026 will provide plenty of opportunities to learn, engage, share, and connect with fellow data science enthusiasts in a friendly and informal setting.
+We would like to cordially invite you to Queensland for the Australasian Applied Statistics Conference 2026 (AASC2026) to be held from the 30th November to the 4th December 2026 at the [**Mantra Mooloolaba Beach**](https://www.mantramooloolababeach.com.au/) on the Sunshine Coast. AASC2026 is for anyone passionate about real-world data analysis, providing opportunities to exchange ideas in all areas of applied statistics, as well as encouraging networking and collaboration. Whether you are a student, researcher, industry representative, or simply have a keen interest in anything related to data science, AASC2026 will provide plenty of opportunities to learn, engage, share, and connect with fellow data science enthusiasts in a friendly and welcoming setting.
 
 ![](images/MooloolabaBeach.jpg)
 

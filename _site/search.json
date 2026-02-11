@@ -11,7 +11,7 @@
     "href": "registration.html",
     "title": "Registration",
     "section": "",
-    "text": "TBA"
+    "text": "TBA\nFor questions or further information, please contact michael.mumford@dpi.qld.gov.au"
   },
   {
     "objectID": "registration.html#key-themes",
@@ -31,8 +31,8 @@
     "objectID": "registration.html#cancellation-policy",
     "href": "registration.html#cancellation-policy",
     "title": "Registration",
-    "section": "Cancellation policy",
-    "text": "Cancellation policy\nTBA\nFor questions or further information, please contact michael.mumford@dpi.qld.gov.au"
+    "section": "",
+    "text": "TBA\nFor questions or further information, please contact michael.mumford@dpi.qld.gov.au"
   },
   {
     "objectID": "location.html",
@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Australasian Applied Statistics Conference 2026",
     "section": "",
-    "text": "We would like to cordially invite you to Queensland for the Australasian Applied Statistic Conference 2026 (AASC2026) to be held from the 30th November to the 4th December 2026 at the Mantra Mooloolaba Beach on the Sunshine Coast. AASC2026 is for anyone passionate about real-world data analysis, providing opportunities to exchange ideas in all areas of applied statistics, as well as encouraging networking and collaboration. Whether you are a student, researcher, industry representative, or simply have a keen interest in anything related to data science, AASC 2026 will provide plenty of opportunities to learn, engage, share, and connect with fellow data science enthusiasts in a friendly and informal setting."
+    "text": "We would like to cordially invite you to Queensland for the Australasian Applied Statistics Conference 2026 (AASC2026) to be held from the 30th November to the 4th December 2026 at the Mantra Mooloolaba Beach on the Sunshine Coast. AASC2026 is for anyone passionate about real-world data analysis, providing opportunities to exchange ideas in all areas of applied statistics, as well as encouraging networking and collaboration. Whether you are a student, researcher, industry representative, or simply have a keen interest in anything related to data science, AASC2026 will provide plenty of opportunities to learn, engage, share, and connect with fellow data science enthusiasts in a friendly setting."
   },
   {
     "objectID": "index.html#register-your-interest",
@@ -145,5 +145,19 @@
     "title": "Accomodation",
     "section": "",
     "text": "For delegates attending the conference who would like to stay at the Mantra Mooloolaba Beach, please use the promotion code AASC2026 to obtain a 10% off the advertised Flexible Daily Rate at the time of booking. You can contact the hotel reservations team on +61 7 5452 2600 Monday to Friday and quote the promotion code when booking. Please note no room block will be held and all room types are subject to availability at the time of booking."
+  },
+  {
+    "objectID": "abstracts.html#key-themes",
+    "href": "abstracts.html#key-themes",
+    "title": "Call for abstracts",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "abstracts.html#submission-guidelines",
+    "href": "abstracts.html#submission-guidelines",
+    "title": "Call for abstracts",
+    "section": "Submission guidelines",
+    "text": "Submission guidelines\nTBA"
   }
 ]

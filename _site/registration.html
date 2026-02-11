@@ -125,12 +125,12 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./about.html">
- <span class="dropdown-text">About</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./location.html">
  <span class="dropdown-text">Location</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./accomodation.html">
+ <span class="dropdown-text">Accomodation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./organisers.html">
@@ -154,9 +154,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-themes" id="toc-key-themes" class="nav-link active" data-scroll-target="#key-themes">Key themes</a></li>
-  <li><a href="#submission-guidelines" id="toc-submission-guidelines" class="nav-link" data-scroll-target="#submission-guidelines">Submission guidelines</a></li>
-  <li><a href="#cancellation-policy" id="toc-cancellation-policy" class="nav-link" data-scroll-target="#cancellation-policy">Cancellation policy</a></li>
+  <li><a href="#cancellation-policy" id="toc-cancellation-policy" class="nav-link active" data-scroll-target="#cancellation-policy">Cancellation policy</a></li>
   </ul>
 </nav>
     </div>
@@ -182,14 +180,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="key-themes" class="level2">
-<h2 class="anchored" data-anchor-id="key-themes">Key themes</h2>
-<p>TBA</p>
-</section>
-<section id="submission-guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="submission-guidelines">Submission guidelines</h2>
-<p>TBA</p>
-</section>
 <section id="cancellation-policy" class="level2">
 <h2 class="anchored" data-anchor-id="cancellation-policy">Cancellation policy</h2>
 <p>TBA</p>
@@ -289,7 +279,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/flourishing-lokum-dc16c2\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -623,7 +613,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Sponsored by VSNi <br><br> Australiasian Applied Statistics Conference, Sunshine Coast, Australia</p>
+<p>Sponsored by <a href="https://vsni.co.uk/">VSNi</a> <br><br> Australasian Applied Statistics Conference, Sunshine Coast, Australia</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

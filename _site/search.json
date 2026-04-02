@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Australasian Applied Statistics Conference 2026",
     "section": "",
-    "text": "We would like to cordially invite you to Queensland for the Australasian Applied Statistics Conference 2026 (AASC2026) to be held from the 30th November to the 4th December 2026 at the Mantra Mooloolaba Beach on the Sunshine Coast. AASC2026 is for anyone passionate about real-world data analysis, providing opportunities to exchange ideas in all areas of applied statistics, as well as encouraging networking and collaboration. Whether you are a student, researcher, industry representative, or simply have a keen interest in anything related to data science, AASC2026 will provide plenty of opportunities to learn, engage, share, and connect with fellow data science enthusiasts in a friendly setting."
+    "text": "We would like to cordially invite you to Queensland for the Australasian Applied Statistics Conference 2026 (AASC2026) to be held from the 30th November to the 4th December 2026 at the Mantra Mooloolaba Beach on the Sunshine Coast. AASC2026 is for anyone passionate about real-world data analysis, providing opportunities to exchange ideas in all areas of applied statistics, as well as encouraging networking and collaboration. Whether you are a student, researcher, industry representative, or simply have a keen interest in anything related to data science, AASC2026 will provide plenty of opportunities to learn, engage, share, and connect with fellow data science enthusiasts in a friendly and welcoming setting."
   },
   {
     "objectID": "index.html#register-your-interest",
@@ -93,9 +93,9 @@
   {
     "objectID": "keynote.html",
     "href": "keynote.html",
-    "title": "Keynote",
+    "title": "Keynote Speakers",
     "section": "",
-    "text": "TBA"
+    "text": "AI is a Crime Scene: sifting through the slop to deliver Responsible Application-Driven solutions\n\n\n\nArtificial Intelligence (AI) is moving at a rapid pace, shaping decisions across sectors and communities. As a result, the number of paper submissions to leading AI venues has surged. For example, in 2025, a little over 71,000 papers were submitted to the main research track of five of the top machine learning conferences, representing a 32% increase since 24 and a 10-fold increase from ten years ago. This rise in volume is becoming increasingly difficult to manage and consume in the academic community. Alongside genuine advances, there is also work that is incremental, overly tuned to curated benchmarks, weakly evidenced or even AI-generated without adequate verification.\nIf we want AI research and deployed systems that are trusted, robust and transparent, we need a forensic lens on how AI and its underlying analytics are developed and evaluated. For me, Statistics provides that lens, yet it can be sidelined in the rush to publish AI and deploy.\nIn this talk, I use the metaphor of a crime scene to describe AI crime: errors in predictions, uncertainty and inference that lead to poor decisions and in high-stakes settings can translate into real-world harm. I outline what Responsible, Application-Driven AI (RAD-AI) looks like in practice, and the statistical checks and incentives that help prevent failure modes and AI crime before it reaches the field. I will illustrate these ideas with work we are developing with stakeholders to produce a trusted AI crop growth model.\nWe would not cut corners at a crime scene, so why would we allow crime to happen with AI!\n\n\n\nDr. Petra Kuhnert is a Senior Principal Research Scientist at CSIRO and an expert at the intersection of statistics and machine learning. Her work develops methodology for risk-based decision-making in environmental and agricultural applications where she develops methods that are fit for purpose, relevant to the question at hand, and usable by decision-makers.\nHer work, particularly supporting Great Barrier Reef decision-making, has been recognised through awards including 1st Runner Up (APAC Women in AI Innovator of the Year, 2023) and the APAC Women in AI Award for Environment and Biodiversity (2023).\nA key contribution to AI-driven decision-making is her award-winning software Vizumap, an R package that helps users understand and communicate uncertainty on maps.\nMore recently, her focus has included machine-learning emulators to speed up slow-running physical system models, Bayesian methods for decision support, and approaches that use geospatial data (e.g., remote sensing) to improve prediction of terrestrial environmental and agricultural processes.\nHer previous roles include Associate Science Director for University Engagement and Group Leader of the Statistical Machine Learning Group in CSIRO’s Data61. She has co-authored 100+ journal articles, with 6,000+ citations and a Google Scholar h-index of 30+. Her collaborations span leading government departments, universities and industry."
   },
   {
     "objectID": "organisers.html",
@@ -159,5 +159,75 @@
     "title": "Call for abstracts",
     "section": "Submission guidelines",
     "text": "Submission guidelines\nTBA"
+  },
+  {
+    "objectID": "keynote.html#ruth-butler",
+    "href": "keynote.html#ruth-butler",
+    "title": "Keynote Speakers",
+    "section": "Ruth Butler",
+    "text": "Ruth Butler\n\n\n\n\n\n\n\n\n\n\nTitle\nTBA\n\n\nAbstract\nTBA\n\n\nBio\nDr. Ruth Butler has worked as a biometrician/statistical consultant for more than 35 years, initially in the UK, then from the mid-1990s in New Zealand. She has primarily worked with bio-protection scientists (plant pathology, entomology), but also has significant experience working with other non-medical biological scientists including in soils/agronomy, food research and plant breeding. Ruth has been a Genstat user throughout her career, contributing around 10 Genstat procedures, and has been a beta tester of Genstat for 30 years. Ruth has also been a CycDesigN user since the very first version was released in 1997. Her interests are in good data management practices, well-designed experiments, and in improving communication between statisticians and scientists."
+  },
+  {
+    "objectID": "keynote.html#title",
+    "href": "keynote.html#title",
+    "title": "Keynote Speakers",
+    "section": "Title",
+    "text": "Title\nAI is a Crime Scene: sifting through the slop to deliver Responsible Application-Driven solutions"
+  },
+  {
+    "objectID": "keynote.html#abstract",
+    "href": "keynote.html#abstract",
+    "title": "Keynote Speakers",
+    "section": "Abstract",
+    "text": "Abstract\nArtificial Intelligence (AI) is moving at a rapid pace, shaping decisions across sectors and communities. As a result, the number of paper submissions to leading AI venues has surged. For example, in 2025, a little over 71,000 papers were submitted to the main research track of five of the top machine learning conferences, representing a 32% increase since 24 and a 10-fold increase from ten years ago. This rise in volume is becoming increasingly difficult to manage and consume in the academic community. Alongside genuine advances, there is also work that is incremental, overly tuned to curated benchmarks, weakly evidenced or even AI-generated without adequate verification.\nIf we want AI research and deployed systems that are trusted, robust and transparent, we need a forensic lens on how AI and its underlying analytics are developed and evaluated. For me, Statistics provides that lens, yet it can be sidelined in the rush to publish AI and deploy.\nIn this talk, I use the metaphor of a crime scene to describe AI crime: errors in predictions, uncertainty and inference that lead to poor decisions and in high-stakes settings can translate into real-world harm. I outline what Responsible, Application-Driven AI (RAD-AI) looks like in practice, and the statistical checks and incentives that help prevent failure modes and AI crime before it reaches the field. I will illustrate these ideas with work we are developing with stakeholders to produce a trusted AI crop growth model.\nWe would not cut corners at a crime scene, so why would we allow crime to happen with AI!"
+  },
+  {
+    "objectID": "keynote.html#bio",
+    "href": "keynote.html#bio",
+    "title": "Keynote Speakers",
+    "section": "Bio",
+    "text": "Bio\nDr Petra Kuhnert is a Senior Principal Research Scientist at CSIRO and an expert at the intersection of statistics and machine learning. Her work develops methodology for risk-based decision-making in environmental and agricultural applications where she develops methods that are fit for purpose, relevant to the question at hand, and usable by decision-makers.\nHer work, particularly supporting Great Barrier Reef decision-making, has been recognised through awards including 1st Runner Up (APAC Women in AI Innovator of the Year, 2023) and the APAC Women in AI Award for Environment and Biodiversity (2023).\nA key contribution to AI-driven decision-making is her award-winning software Vizumap, an R package that helps users understand and communicate uncertainty on maps.\nMore recently, her focus has included machine-learning emulators to speed up slow-running physical system models, Bayesian methods for decision support, and approaches that use geospatial data (e.g., remote sensing) to improve prediction of terrestrial environmental and agricultural processes.\nHer previous roles include Associate Science Director for University Engagement and Group Leader of the Statistical Machine Learning Group in CSIRO’s Data61. She has co-authored 100+ journal articles, with 6,000+ citations and a Google Scholar h-index of 30+. Her collaborations span leading government departments, universities and industry."
+  },
+  {
+    "objectID": "keynote.html#title-1",
+    "href": "keynote.html#title-1",
+    "title": "Keynote Speakers",
+    "section": "Title",
+    "text": "Title\nTBA"
+  },
+  {
+    "objectID": "keynote.html#abstract-1",
+    "href": "keynote.html#abstract-1",
+    "title": "Keynote Speakers",
+    "section": "Abstract",
+    "text": "Abstract\nTBA"
+  },
+  {
+    "objectID": "keynote.html#bio-1",
+    "href": "keynote.html#bio-1",
+    "title": "Keynote Speakers",
+    "section": "Bio",
+    "text": "Bio\nDr. Ruth Butler has worked as a biometrician/statistical consultant for more than 35 years, initially in the UK, then from the mid-1990s in New Zealand. She has primarily worked with bio-protection scientists (plant pathology, entomology), but also has significant experience working with other non-medical biological scientists including in soils/agronomy, food research and plant breeding. Ruth has been a Genstat user throughout her career, contributing around 10 Genstat procedures, and has been a beta tester of Genstat for 30 years. Ruth has also been a CycDesigN user since the very first version was released in 1997. Her interests are in good data management practices, well-designed experiments, and in improving communication between statisticians and scientists."
+  },
+  {
+    "objectID": "keynote.html#petra-kuhnert",
+    "href": "keynote.html#petra-kuhnert",
+    "title": "Keynote Speakers",
+    "section": "",
+    "text": "AI is a Crime Scene: sifting through the slop to deliver Responsible Application-Driven solutions\n\n\n\nArtificial Intelligence (AI) is moving at a rapid pace, shaping decisions across sectors and communities. As a result, the number of paper submissions to leading AI venues has surged. For example, in 2025, a little over 71,000 papers were submitted to the main research track of five of the top machine learning conferences, representing a 32% increase since 24 and a 10-fold increase from ten years ago. This rise in volume is becoming increasingly difficult to manage and consume in the academic community. Alongside genuine advances, there is also work that is incremental, overly tuned to curated benchmarks, weakly evidenced or even AI-generated without adequate verification.\nIf we want AI research and deployed systems that are trusted, robust and transparent, we need a forensic lens on how AI and its underlying analytics are developed and evaluated. For me, Statistics provides that lens, yet it can be sidelined in the rush to publish AI and deploy.\nIn this talk, I use the metaphor of a crime scene to describe AI crime: errors in predictions, uncertainty and inference that lead to poor decisions and in high-stakes settings can translate into real-world harm. I outline what Responsible, Application-Driven AI (RAD-AI) looks like in practice, and the statistical checks and incentives that help prevent failure modes and AI crime before it reaches the field. I will illustrate these ideas with work we are developing with stakeholders to produce a trusted AI crop growth model.\nWe would not cut corners at a crime scene, so why would we allow crime to happen with AI!\n\n\n\nDr Petra Kuhnert is a Senior Principal Research Scientist at CSIRO and an expert at the intersection of statistics and machine learning. Her work develops methodology for risk-based decision-making in environmental and agricultural applications where she develops methods that are fit for purpose, relevant to the question at hand, and usable by decision-makers.\nHer work, particularly supporting Great Barrier Reef decision-making, has been recognised through awards including 1st Runner Up (APAC Women in AI Innovator of the Year, 2023) and the APAC Women in AI Award for Environment and Biodiversity (2023).\nA key contribution to AI-driven decision-making is her award-winning software Vizumap, an R package that helps users understand and communicate uncertainty on maps.\nMore recently, her focus has included machine-learning emulators to speed up slow-running physical system models, Bayesian methods for decision support, and approaches that use geospatial data (e.g., remote sensing) to improve prediction of terrestrial environmental and agricultural processes.\nHer previous roles include Associate Science Director for University Engagement and Group Leader of the Statistical Machine Learning Group in CSIRO’s Data61. She has co-authored 100+ journal articles, with 6,000+ citations and a Google Scholar h-index of 30+. Her collaborations span leading government departments, universities and industry."
+  },
+  {
+    "objectID": "keynote.html#dr.-petra-kuhnert",
+    "href": "keynote.html#dr.-petra-kuhnert",
+    "title": "Keynote Speakers",
+    "section": "",
+    "text": "AI is a Crime Scene: sifting through the slop to deliver Responsible Application-Driven solutions\n\n\n\nArtificial Intelligence (AI) is moving at a rapid pace, shaping decisions across sectors and communities. As a result, the number of paper submissions to leading AI venues has surged. For example, in 2025, a little over 71,000 papers were submitted to the main research track of five of the top machine learning conferences, representing a 32% increase since 24 and a 10-fold increase from ten years ago. This rise in volume is becoming increasingly difficult to manage and consume in the academic community. Alongside genuine advances, there is also work that is incremental, overly tuned to curated benchmarks, weakly evidenced or even AI-generated without adequate verification.\nIf we want AI research and deployed systems that are trusted, robust and transparent, we need a forensic lens on how AI and its underlying analytics are developed and evaluated. For me, Statistics provides that lens, yet it can be sidelined in the rush to publish AI and deploy.\nIn this talk, I use the metaphor of a crime scene to describe AI crime: errors in predictions, uncertainty and inference that lead to poor decisions and in high-stakes settings can translate into real-world harm. I outline what Responsible, Application-Driven AI (RAD-AI) looks like in practice, and the statistical checks and incentives that help prevent failure modes and AI crime before it reaches the field. I will illustrate these ideas with work we are developing with stakeholders to produce a trusted AI crop growth model.\nWe would not cut corners at a crime scene, so why would we allow crime to happen with AI!\n\n\n\nDr. Petra Kuhnert is a Senior Principal Research Scientist at CSIRO and an expert at the intersection of statistics and machine learning. Her work develops methodology for risk-based decision-making in environmental and agricultural applications where she develops methods that are fit for purpose, relevant to the question at hand, and usable by decision-makers.\nHer work, particularly supporting Great Barrier Reef decision-making, has been recognised through awards including 1st Runner Up (APAC Women in AI Innovator of the Year, 2023) and the APAC Women in AI Award for Environment and Biodiversity (2023).\nA key contribution to AI-driven decision-making is her award-winning software Vizumap, an R package that helps users understand and communicate uncertainty on maps.\nMore recently, her focus has included machine-learning emulators to speed up slow-running physical system models, Bayesian methods for decision support, and approaches that use geospatial data (e.g., remote sensing) to improve prediction of terrestrial environmental and agricultural processes.\nHer previous roles include Associate Science Director for University Engagement and Group Leader of the Statistical Machine Learning Group in CSIRO’s Data61. She has co-authored 100+ journal articles, with 6,000+ citations and a Google Scholar h-index of 30+. Her collaborations span leading government departments, universities and industry."
+  },
+  {
+    "objectID": "keynote.html#dr.-ruth-butler",
+    "href": "keynote.html#dr.-ruth-butler",
+    "title": "Keynote Speakers",
+    "section": "Dr. Ruth Butler",
+    "text": "Dr. Ruth Butler\n\n\n\n\n\n\n\n\n\n\nTitle\nTBA\n\n\nAbstract\nTBA\n\n\nBio\nDr. Ruth Butler has worked as a biometrician/statistical consultant for more than 35 years, initially in the UK, then from the mid-1990s in New Zealand. She has primarily worked with bio-protection scientists (plant pathology, entomology), but also has significant experience working with other non-medical biological scientists including in soils/agronomy, food research and plant breeding. Ruth has been a Genstat user throughout her career, contributing around 10 Genstat procedures, and has been a beta tester of Genstat for 30 years. Ruth has also been a CycDesigN user since the very first version was released in 1997. Her interests are in good data management practices, well-designed experiments, and in improving communication between statisticians and scientists."
   }
 ]

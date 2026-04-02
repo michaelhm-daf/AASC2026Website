@@ -4,9 +4,10 @@ project:
 website:
   title: "#AASC2026"
   page-footer: |
-   Sponsored by [VSNi](https://vsni.co.uk/) 
-   <br><br>
-   Australasian Applied Statistics Conference, Sunshine Coast, Australia
+    Sponsored by [VSNi](https://vsni.co.uk/)  
+    ![](/images/sponsors/VSNi_logo.png){fig-alt="VSNi" height="4em"}  
+    <br><br>
+    Australasian Applied Statistics Conference, Sunshine Coast, Australia
   navbar:
     background: primary
     search: true
@@ -27,6 +28,8 @@ website:
           - organisers.qmd
 format:
   html:
+    code-fold: true
+    collapsible: true
     theme:
       - cosmo
       - brand

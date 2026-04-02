@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-program">    
         <li>
     <a class="dropdown-item" href="./keynote.html">
- <span class="dropdown-text">Keynote</span></a>
+ <span class="dropdown-text">Keynote Speakers</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./workshop.html">
@@ -125,12 +125,12 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./about.html">
- <span class="dropdown-text">About</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./location.html">
  <span class="dropdown-text">Location</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./accomodation.html">
+ <span class="dropdown-text">Accomodation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./organisers.html">
@@ -175,7 +175,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>TBA</p>
-
 
 
 </main> <!-- /main -->
@@ -269,7 +268,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/flourishing-lokum-dc16c2\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -603,7 +602,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Sponsored by VSNi <br><br> Australiasian Applied Statistics Conference, Sunshine Coast, Australia</p>
+Sponsored by <a href="https://vsni.co.uk/">VSNi</a>
+
+
+<img src=".\images/sponsors/VSNi_logo.png" style="height:4em" alt="VSNi">
+
+<p><br><br> Australasian Applied Statistics Conference, Sunshine Coast, Australia</p>
+<p>:::</p>
+<p>:::</p>
+
 </div>
     <div class="nav-footer-right">
       &nbsp;

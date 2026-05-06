@@ -24,7 +24,7 @@ website:
       - text: About 
         menu: 
           - location.qmd
-          - accomodation.qmd
+          - accommodation.qmd
           - organisers.qmd
 format:
   html:

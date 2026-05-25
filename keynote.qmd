@@ -11,11 +11,11 @@ The organising committee is proud to announce the following keynote speakers for
 
   <h3>Presentation Title</h3>
 
-  Modelling continuous data with exact zeros
+  TBA
 
   <h3>Abstract</h3>
-
-  Statistical models for continuous data (e.g., linear regression) and discrete data (e.g., logistic regression) are commonly used. Continuous data with exact zeros, while less common, appear in many applications. In this talk, different models are discussed for modelling this type of data, with a focus on using Poisson-gamma models, which are Poisson sums of gamma distributions. Poisson-gamma distributions are part of the EDM family, so can be used for modelling within the generalised linear models (GLMs) framework. This means that the fitting, model selection and residual analysis tools familiar from GLMs also apply to GLMs fitted to continuous data with exact zeros.
+  
+  TBA
 
   <h3>Biography</h3>
 
@@ -29,11 +29,11 @@ Professor Margarita Moreno-Betancur is co-Director of the Clinical Epidemiology 
 
   <h3>Presentation Title</h3>
 
-  TBA
+  Modelling continuous data with exact zeros
 
   <h3>Abstract</h3>
 
-  TBA
+  Statistical models for continuous data (e.g., linear regression) and discrete data (e.g., logistic regression) are commonly used. Continuous data with exact zeros, while less common, appear in many applications. In this talk, different models are discussed for modelling this type of data, with a focus on using Poisson-gamma models, which are Poisson sums of gamma distributions. Poisson-gamma distributions are part of the EDM family, so can be used for modelling within the generalised linear models (GLMs) framework. This means that the fitting, model selection and residual analysis tools familiar from GLMs also apply to GLMs fitted to continuous data with exact zeros.
 
   <h3>Biography</h3>
 

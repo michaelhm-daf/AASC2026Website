@@ -5,6 +5,25 @@ title: Keynote Speakers
 The organising committee is proud to announce the following keynote speakers for AASC2026.
 
 <details>
+  <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Prof. Ben Hayes</summary>
+
+  <img src="images/BenHayes.png" alt="Ben Hayes" style="width:35%; display:block; margin:auto;" />
+
+  <h3>Presentation Title</h3>
+
+  TBA
+
+  <h3>Abstract</h3>
+  
+  TBA
+
+  <h3>Biography</h3>
+
+TBA
+</details>
+
+
+<details>
   <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Prof. Margarita Moreno Betancur</summary>
 
   <img src="images/MargaritaBetancur.png" alt="Margarita Moreno Betancur" style="width:45%; display:block; margin:auto;" />
@@ -94,3 +113,19 @@ She has co-authored 100+ journal articles, with 6,000+ citations and a Google Sc
 Dr. Ruth Butler has worked as a biometrician/statistical consultant for more than 35 years, initially in the UK, then from the mid-1990s in New Zealand. She has primarily worked with bio-protection scientists (plant pathology, entomology), but also has significant experience working with other non-medical biological scientists including in soils/agronomy, food research and plant breeding. Ruth has been a Genstat user throughout her career, contributing around 10 Genstat procedures, and has been a beta tester of Genstat for 30 years. Ruth has also been a CycDesigN user since the very first version was released in 1997. Her interests are in good data management practices, well-designed experiments, and in improving communication between statisticians and scientists.
 </details>
 
+
+<details>
+  <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Dr. Salvador Gezan</summary>
+
+  <h3>Presentation Title</h3>
+
+  TBA
+
+  <h3>Abstract</h3>
+  
+  TBA
+
+  <h3>Biography</h3>
+
+  TBA
+</details>

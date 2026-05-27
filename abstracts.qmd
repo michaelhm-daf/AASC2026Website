@@ -2,7 +2,30 @@
 title: "Call for abstracts"
 ---
 
+Abstract submission is now open. [Please submit your abstract through the following link](https://forms.office.com/r/U0xg0nRAdQ)
 
 ## Submission guidelines
 
-TBA
+-   Abstract is no longer than 2000 characters (spaces included)
+
+-   Presentation title is a maximum 120 characters
+
+-   Please include a brief professional biography (max 400 characters)
+
+-   Ensure that the presentation is broadly related to the field of applied statistics/data science
+
+-   State your preference for a contributed talk or poster
+
+-   Maximum of one submission as the corresponding author
+
+-   Abstract submission closes on **Friday the 3rd July**
+
+
+
+
+
+
+
+
+
+

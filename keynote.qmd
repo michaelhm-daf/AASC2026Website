@@ -5,74 +5,96 @@ title: Keynote Speakers
 The organising committee is proud to announce the following keynote speakers for AASC2026.
 
 <details>
-  <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Prof. Ben Hayes</summary>
 
-  <img src="images/BenHayes.png" alt="Ben Hayes" style="width:35%; display:block; margin:auto;" />
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
 
-  <h3>Presentation Title</h3>
+Prof. Ben Hayes
 
-  TBA
+</summary>
 
-  <h3>Abstract</h3>
-  
-  TBA
+<img src="images/BenHayes.jpg" alt="Ben Hayes" style="width:40%; display:block; margin:auto;"/>
 
-  <h3>Biography</h3>
+<h3>Presentation Title</h3>
 
 TBA
+
+<h3>Abstract</h3>
+
+TBA
+
+<h3>Biography</h3>
+
+TBA
+
 </details>
 
-
 <details>
-  <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Prof. Margarita Moreno Betancur</summary>
 
-  <img src="images/MargaritaBetancur.png" alt="Margarita Moreno Betancur" style="width:45%; display:block; margin:auto;" />
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
 
-  <h3>Presentation Title</h3>
+Prof. Margarita Moreno Betancur
 
-  TBA
+</summary>
 
-  <h3>Abstract</h3>
-  
-  TBA
+<img src="images/MargaritaBetancur.png" alt="Margarita Moreno Betancur" style="width:45%; display:block; margin:auto;"/>
 
-  <h3>Biography</h3>
+<h3>Presentation Title</h3>
+
+TBA
+
+<h3>Abstract</h3>
+
+TBA
+
+<h3>Biography</h3>
 
 Professor Margarita Moreno-Betancur is co-Director of the Clinical Epidemiology and Biostatistics Unit at the Melbourne Children’s campus. She established an internationally recognised hub of innovation and expertise in statistical methods for observational studies, supported by competitive fellowship and grant funding. Her team conducts methodological research in causal inference and missing data while contributing their expertise to health research studies. She is Chair of the Victorian Centre for Biostatistics leadership team, Scientific Lead of the LifeCourse platform of cohort studies, and Editor of the journal *Epidemiology*. She was awarded the Moran Medal by the Australian Academy of Science in 2025.
+
 </details>
 
 <details>
-  <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Associate Prof. Peter Dunn</summary>
 
-  <img src="images/PeterDunn.jpeg" alt="Peter Dunn" style="width:35%; display:block; margin:auto;" />
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
 
-  <h3>Presentation Title</h3>
+Associate Prof. Peter Dunn
 
-  Modelling continuous data with exact zeros
+</summary>
 
-  <h3>Abstract</h3>
+<img src="images/PeterDunn.jpeg" alt="Peter Dunn" style="width:35%; display:block; margin:auto;"/>
 
-  Statistical models for continuous data (e.g., linear regression) and discrete data (e.g., logistic regression) are commonly used. Continuous data with exact zeros, while less common, appear in many applications. In this talk, different models are discussed for modelling this type of data, with a focus on using Poisson-gamma models, which are Poisson sums of gamma distributions. Poisson-gamma distributions are part of the EDM family, so can be used for modelling within the generalised linear models (GLMs) framework. This means that the fitting, model selection and residual analysis tools familiar from GLMs also apply to GLMs fitted to continuous data with exact zeros.
+<h3>Presentation Title</h3>
 
-  <h3>Biography</h3>
+Modelling continuous data with exact zeros
+
+<h3>Abstract</h3>
+
+Statistical models for continuous data (e.g., linear regression) and discrete data (e.g., logistic regression) are commonly used. Continuous data with exact zeros, while less common, appear in many applications. In this talk, different models are discussed for modelling this type of data, with a focus on using Poisson-gamma models, which are Poisson sums of gamma distributions. Poisson-gamma distributions are part of the EDM family, so can be used for modelling within the generalised linear models (GLMs) framework. This means that the fitting, model selection and residual analysis tools familiar from GLMs also apply to GLMs fitted to continuous data with exact zeros.
+
+<h3>Biography</h3>
 
 Peter is an Associate Professor in Biostatistics at the University of the Sunshine Coast, and routinely teaches introductory statistics to over 500 students over two semesters each year.
 
 Peter has over 110 peer-reviewed research publications, has prepared numerous **R** packages available on CRAN (including the tweedie package, with almost 1 million downloads from CRAN) and co-developed the *Dunn-Smyth* (or *quantile*) *residuals* used in statistical modelling. Peter has been invited to give presentations on the R statistical environment at conferences and workshops across Australia.
 
 Peter won an Australian *Office of Learning and Teaching Citation* in 2012, a student prize at the 16th *International Workshop on Statistical Modelling* in Denmark, and the EJ Pitman Prize for student talks at the *Australian Statistics Conference* in 2002. He has also published two textbooks: *Generalized Linear Models With Examples in R* (Springer) and *Scientific Research and Methodology* (CRS Press; also available as a free interactive online textbook).
+
 </details>
 
 <details>
-  <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Dr. Petra Kuhnert</summary>
 
-  <img src="images/PetraKuhnert.jpg" alt="Petra Kuhnert" style="width:30%; display:block; margin:auto;" />
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
 
-  <h3>Presentation Title</h3>
+Dr. Petra Kuhnert
 
-  Irresponsible use of AI is a Crime Scene: sifting through the slop to deliver responsible AI solutions
+</summary>
 
-  <h3>Abstract</h3>
+<img src="images/PetraKuhnert.jpg" alt="Petra Kuhnert" style="width:30%; display:block; margin:auto;"/>
+
+<h3>Presentation Title</h3>
+
+Irresponsible use of AI is a Crime Scene: sifting through the slop to deliver responsible AI solutions
+
+<h3>Abstract</h3>
 
 Artificial Intelligence (AI) is moving at a rapid pace, shaping decisions across sectors and communities. As a result, the number of paper submissions to leading AI venues has surged. For example, in 2025, a little over 71,000 papers were submitted to the main research track of five of the top machine learning conferences, representing a 32% increase since 24 and a 10-fold increase from ten years ago. This rise in volume is becoming increasingly difficult to manage and consume in the academic community. Alongside genuine advances, there is also work that is incremental, overly tuned to curated benchmarks, weakly evidenced or even AI-generated without adequate verification.
 
@@ -82,7 +104,7 @@ In this talk, I use the metaphor of a crime scene to describe *AI crime*: errors
 
 We would not cut corners at a crime scene, so why would we allow crime to happen with AI!
 
-  <h3>Biography</h3>
+<h3>Biography</h3>
 
 Dr. Petra Kuhnert is a Senior Principal Research Scientist at CSIRO and an expert at the intersection of statistics and machine learning. Her work develops methodology for risk-based decision-making in environmental and agricultural applications where she develops methods that are fit for purpose, relevant to the question at hand, and usable by decision-makers.
 
@@ -93,39 +115,51 @@ A key contribution to AI-driven decision-making is her award-winning software *V
 More recently, her focus has included machine-learning emulators to speed up slow-running physical system models, Bayesian methods for decision support, and approaches that use geospatial data (e.g., remote sensing) to improve prediction of terrestrial environmental and agricultural processes. Her previous roles include Associate Science Director for University Engagement and Group Leader of the Statistical Machine Learning Group in CSIRO’s Data61.
 
 She has co-authored 100+ journal articles, with 6,000+ citations and a Google Scholar h-index of 30+. Her collaborations span leading government departments, universities and industry.
+
 </details>
 
 <details>
-  <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Dr. Ruth Butler</summary>
-  
-  <img src="images/RuthButler.jpg" alt="Ruth Butler" style="width:40%; display:block; margin:auto;" />
 
-  <h3>Presentation Title</h3>
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
 
-  TBA
+Dr. Ruth Butler
 
-  <h3>Abstract</h3>
+</summary>
 
-  TBA
+<img src="images/RuthButler.jpg" alt="Ruth Butler" style="width:40%; display:block; margin:auto;"/>
 
-  <h3>Biography</h3>
+<h3>Presentation Title</h3>
+
+TBA
+
+<h3>Abstract</h3>
+
+TBA
+
+<h3>Biography</h3>
 
 Dr. Ruth Butler has worked as a biometrician/statistical consultant for more than 35 years, initially in the UK, then from the mid-1990s in New Zealand. She has primarily worked with bio-protection scientists (plant pathology, entomology), but also has significant experience working with other non-medical biological scientists including in soils/agronomy, food research and plant breeding. Ruth has been a Genstat user throughout her career, contributing around 10 Genstat procedures, and has been a beta tester of Genstat for 30 years. Ruth has also been a CycDesigN user since the very first version was released in 1997. Her interests are in good data management practices, well-designed experiments, and in improving communication between statisticians and scientists.
+
 </details>
 
-
 <details>
-  <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">Dr. Salvador Gezan</summary>
 
-  <h3>Presentation Title</h3>
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
 
-  TBA
+Dr. Salvador Gezan
 
-  <h3>Abstract</h3>
-  
-  TBA
+</summary>
 
-  <h3>Biography</h3>
+<h3>Presentation Title</h3>
 
-  TBA
+TBA
+
+<h3>Abstract</h3>
+
+TBA
+
+<h3>Biography</h3>
+
+TBA
+
 </details>

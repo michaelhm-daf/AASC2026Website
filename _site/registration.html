@@ -66,6 +66,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 
 <link rel="stylesheet" href="styles.css">
@@ -99,11 +103,11 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-program">    
         <li>
     <a class="dropdown-item" href="./keynote.html">
- <span class="dropdown-text">Keynote Speakers</span></a>
+ <span class="dropdown-text">Keynote speakers</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./workshop.html">
- <span class="dropdown-text">Workshop</span></a>
+ <span class="dropdown-text">Workshops</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./social.html">
@@ -154,7 +158,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cancellation-policy" id="toc-cancellation-policy" class="nav-link active" data-scroll-target="#cancellation-policy">Cancellation policy</a></li>
+  <li><a href="#conference-workshops" id="toc-conference-workshops" class="nav-link active" data-scroll-target="#conference-workshops">Conference workshops</a></li>
+  <li><a href="#social-activities" id="toc-social-activities" class="nav-link" data-scroll-target="#social-activities">Social activities</a></li>
+  <li><a href="#travel-insurance" id="toc-travel-insurance" class="nav-link" data-scroll-target="#travel-insurance">Travel insurance</a></li>
+  <li><a href="#cancellation-policy" id="toc-cancellation-policy" class="nav-link" data-scroll-target="#cancellation-policy">Cancellation policy</a></li>
+  <li><a href="#while-registering-accept-aguai-membership" id="toc-while-registering-accept-aguai-membership" class="nav-link" data-scroll-target="#while-registering-accept-aguai-membership">While registering, accept AGUAi membership</a></li>
   </ul>
 </nav>
     </div>
@@ -180,10 +188,279 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-striped caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Conference registration prices ($AUD)</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(0, 115, 230, 255) !important;">Item</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(0, 115, 230, 255) !important;">Early-bird rate</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(0, 115, 230, 255) !important;">Standard rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">Full conference registration (including conference dinner)</td>
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">996</td>
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">1165</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important;">Full conference registration (student)</td>
+<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important;">699</td>
+<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important;">848</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">Full-day workshop</td>
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;"></td>
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">319</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important; background-color: rgba(230, 247, 255, 255) !important;">Half-day workshop</td>
+<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important; background-color: rgba(230, 247, 255, 255) !important;"></td>
+<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important; background-color: rgba(230, 247, 255, 255) !important;">234</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">Full-day registration only (Tuesday or Thursday)</td>
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;"></td>
+<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">372</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Half-day registration only (Wednesday or Friday)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">319</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Welcome reception extra guest</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">129</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Conference dinner extra guest</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">182</td>
+</tr>
+</tbody><tfoot>
+<tr class="odd">
+<td style="text-align: left; padding: 0; border: 0;"><sup>a</sup> Full conference registration includes attendance of all conference days, at the welcome reception, poster session and the conference dinner. Pre-conference workshop registration is separate.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding: 0; border: 0;"><sup>b</sup> Day registrations include morning tea, lunch, and continuous tea/coffee.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0; border: 0;"><sup>c</sup> To access the student discount, you must be a student currently completing postgraduate (masters or PhD) research at a recognised university. To apply for the student discount, please email michael.mumford@dpi.qld.gov.au declaring that you are a student at the corresponding research instituion. A letterhead must be included in the email.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+<section id="conference-workshops" class="level2">
+<h2 class="anchored" data-anchor-id="conference-workshops">Conference workshops</h2>
+<p><a href="https://aasc2026.netlify.app/workshop">Click here</a> for more information about the pre-conference workshops</p>
+</section>
+<section id="social-activities" class="level2">
+<h2 class="anchored" data-anchor-id="social-activities">Social activities</h2>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
+<thead>
+<tr style="background-color: #0073e6; color: white; text-align: left;">
+<th style="padding: 10px; border: 1px solid #ddd;">
+#
+</th>
+<th style="padding: 10px; border: 1px solid #ddd;">
+Name
+</th>
+<th style="padding: 10px; border: 1px solid #ddd;">
+Description
+</th>
+<th style="padding: 10px; border: 1px solid #ddd;">
+Time and Duration
+</th>
+<th style="padding: 10px; border: 1px solid #ddd;">
+Location
+</th>
+<th style="padding: 10px; border: 1px solid #ddd;">
+Price
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px; border: 1px solid #ddd;">
+1
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+<b>Walking along the oceanfront</b>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Enjoy a guided group walk along Mooloolaba and Maroochydore oceanfront.<br><br>
+<ul>
+<li>
+<b>1:30pm – 2:00pm:</b> Explore the rocky beachfront across from the Mantra Mooloolaba.
+</li>
+<li>
+<b>2:00pm – 3:30pm:</b> Walk north along the oceanfront to Maroochydore Beach and back.
+</li>
+<li>
+<b>3:30pm onwards:</b> Optional refreshments or additional walking.
+</li>
+</ul>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+1:30pm–3:30pm
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Mooloolaba Beach
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+$0
+</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+2
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+<b>Aquaduck</b>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Explore Mooloolaba by land and sea on the Aquaduck Sunshine Coast.<br><br>
+<ul>
+<li>
+Departs directly in front of SEA LIFE Sunshine Coast.
+</li>
+<li>
+Combines the best sights of Mooloolaba into one fun and exciting tour.
+</li>
+</ul>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+2:00pm (1 hour)
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Near SEA LIFE
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+$56
+</td>
+</tr>
+<tr>
+<td style="padding: 10px; border: 1px solid #ddd;">
+3
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+<b>Mooloolaba Canal Cruise</b>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Relaxing sunset cruise through the calm waters of the Mooloolah River.<br><br>
+<ul>
+<li>
+Departs from Mooloolaba Wharf.
+</li>
+<li>
+Enjoy live commentary about the region’s history and significance.
+</li>
+</ul>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Sunset (~6:10pm)
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Mooloolaba Wharf
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+$35
+</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+4
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+<b>Ginger Factory</b>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Tour the world’s largest operating ginger factory and enjoy its attractions.<br><br>
+<ul>
+<li>
+Tastes of Ginger tour.
+</li>
+<li>
+Live Bee Show.
+</li>
+<li>
+Ginger Train Ride.
+</li>
+</ul>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+1:30pm–4:15pm
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Yandina
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+$72.50
+</td>
+</tr>
+<tr>
+<td style="padding: 10px; border: 1px solid #ddd;">
+5
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+<b>Montville</b>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Explore shops, galleries, and cafés in Montville.<br><br>
+<ul>
+<li>
+Free time to explore the main strip.
+</li>
+<li>
+Optional group afternoon tea at Poets Café at 3:30pm.
+</li>
+</ul>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+1:00pm–5:45pm
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+Montville
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+$32.50
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="travel-insurance" class="level2">
+<h2 class="anchored" data-anchor-id="travel-insurance">Travel insurance</h2>
+<p>We recommend you to get travel insurance.</p>
+<p><a href="https://aasc2026.netlify.app/social">Click here</a> for more information about the conference social activities</p>
+</section>
 <section id="cancellation-policy" class="level2">
 <h2 class="anchored" data-anchor-id="cancellation-policy">Cancellation policy</h2>
-<p>TBA</p>
-<p>For questions or further information, please contact <a href="mailto:michael.mumford@dpi.qld.gov.au">michael.mumford@dpi.qld.gov.au</a></p>
+<p>Cancellations must be notified in writing to <a href="mailto:michael.mumford@dpi.qld.gov.au">the conference organisers</a></p>
+<p>Cancellations notified before 1st October 2026 will be given an 80% refund. After this date, but prior to 14th November the refund will be 50%. After 14th November 2026, there will be no refund. This policy applies to conference registrations and to the social program.</p>
+</section>
+<section id="while-registering-accept-aguai-membership" class="level2">
+<h2 class="anchored" data-anchor-id="while-registering-accept-aguai-membership">While registering, accept AGUAi membership</h2>
+<p>Despite its name, the Australasian Genstat Users Association Inc (AGUAi) exists specifically to organise this biennial conference. As you register for the conference, please accept free membership. You will then be placed on the conference email list to stay informed about future AASC conferences and be eligible to vote on who gets to organise the next AASC. For historical reasons, the formal objectives of the association are:</p>
+<ul>
+<li><p>To foster association between persons involved or interested in the application of statistical methods</p></li>
+<li><p>To foster association between persons involved or interested in using Genstat</p></li>
+<li><p>To organise meetings and events focused on statistical and statistical computing issues.</p></li>
+</ul>
+<p>The Rules of Association are available <a href="files/AGUAi_rules_of_Association.pdf" download="">here</a>.</p>
 
 
 </section>

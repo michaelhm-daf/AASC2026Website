@@ -1,5 +1,5 @@
 ---
-title: Keynote Speakers
+title: Keynote speakers
 ---
 
 The organising committee is proud to announce the following keynote speakers for AASC2026.
@@ -152,14 +152,14 @@ Dr. Salvador Gezan
 
 <h3>Presentation Title</h3>
 
-TBA
+Fitting Large Genomic Models: Computational Strategies and Approximations within the Linear Mixed Model Framework
 
 <h3>Abstract</h3>
 
-TBA
+As genomic datasets grow larger, substantial statistical and computational challenges arise when analysing single-nucleotide polymorphism (SNP) data. Such data are widely used in Genome-wide Association Studies (GWAS), Polygenic Risk Score (PRS) analyses, and genome-wide prediction models. Depending on the field and context, it is common to encounter datasets containing millions of SNPs and hundreds of thousands of genotyped individuals. Fitting even the simplest linear mixed model at this scale is computationally demanding, requiring the handling of large genomic matrices and the estimation of a large number of marker effects. Statistical and mathematical techniques such as Cholesky decomposition, eigen-transformation, Singular Value Decomposition, and low-rank matrix approximations provide practical solutions for fitting these models and obtaining the required effects and predictions. This talk will present key mathematical details, illustrations, and practical guidelines for addressing large-scale genomic analyses in plant and animal breeding.
 
 <h3>Biography</h3>
 
-TBA
+Salvador Gezan is a statistician and quantitative geneticist with over 20 years of experience, currently serving as a Statistical Genetics Consultant at VSN International. He specialises in mixed models and their application to biological problems, supporting agricultural, forestry, and aquaculture breeding programmes through the analysis of phenotypic and genotypic data, the development of breeding strategies, and the implementation of genomic selection in operational breeding programmes. He began his career at Rothamsted Research, was an Associate Professor at the University of Florida, and has delivered ASReml workshops globally. Dr. Gezan has over 160 peer-reviewed publications and is a co-author of *Statistical Methods in Biology: Design and Analysis of Experiments and Regression*.
 
 </details>

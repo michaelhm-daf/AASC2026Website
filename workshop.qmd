@@ -1,5 +1,130 @@
 ---
-title: "Workshop"
+title: "Workshops"
 ---
 
-TBA
+---
+title: "Workshops"
+---
+
+We are excited to announce the following pre-conference workshops will take place on Monday the $30^{\text{th}}$ November.
+
+<details>
+
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
+
+Full-day ASReml-R Workshop
+
+</summary>
+
+This one-day workshop will focus on modelling complex variance-covariance structures in biological experiments using ASReml-R. ASReml-R is a statistical library in `R` that fits linear mixed models using REML methodology. This workshop will cover key variance structures for random effects and residuals, including spatial, repeated measures, multivariate, and multi-environment models, with applications drawn from agricultural and medical research contexts.
+
+The workshop is oriented toward practical analysis of real datasets. Participants are expected to have prior familiarity with linear mixed model methodology and R, and should bring their own laptop with R and ASReml-R pre-installed. A training ASReml-R license will be provided.
+
+### Morning (4 sessions)
+
+1.  **Introduction & Linear Mixed Model Refresher**\
+    Brief ASReml-R orientation, mixed model theory, fixed vs random effects, and REML estimation.
+
+2.  **Variance Structures in ASReml-R**\
+    The core topic considering diagonal, correlation, unstructured, and factor analytic structures.
+
+3.  **Spatial Variance Structures**\
+    Modelling residual spatial correlation in field trials using AR1$\times$AR1 structures.
+
+4.  **Repeated Measures & Random Regression**\
+    Modelling correlations over time, using simple or complex approaches.
+
+### Afternoon (3 sessions)
+
+1.  **Bivariate & Multivariate Models**\
+    Random effects and residual correlation structures between responses.
+
+2.  **Multi-Environment Trials & Factor Analytic Models**\
+    G$\times$E interaction, factor analytic variance structures, and extensions to other contexts.
+
+3.  **Expanding to Complex Structures**\
+    Modelling multi-stratum designs with multiple layers of correlation between random effects and residuals.
+
+</details>
+
+<details>
+
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
+
+Genstat Masterclass
+
+</summary>
+
+This full-day masterclass will highlight some new additions and hidden features in Genstat throughout 4 sessions
+
+1.  **New Features in Genstat 24**
+
+    -   *New graphics menus:* irregular shade and tessellation plots, forest and pirate plots, ROC curves, adding shaded confidence regions to graphs
+
+    -   *New statistical menus:* bimodality and outlier tests, tabulating text, fitting smooth surfaces to irregular points, repeated measures with censoring
+
+    -   *Menu updates:* General ANOVA - transformations and multiple Y variates
+
+    -   *New spreadsheet features*
+
+2.  **Advanced Data Handling in Genstat**
+
+    -   Importing and exporting data in programs
+
+    -   Working with pointers and substitution
+
+    -   Useful functions when programming
+
+    -   Merging, appending, subsetting, stacking, and unstacking data in programs
+
+    -   Making the most of the spreadsheet facilities
+
+3.  **Building Your Own Graphs by Programming**
+
+    -   Better keys with `DKEY`
+
+    -   Labelling points and controlling label positioning
+
+    -   Non-standard plotting symbols and icons
+
+    -   Adding text, arrows, error bars, lines and shaded regions to graphs
+
+    -   Overlaying graphs
+
+4.  **Extra Features When Fitting Mixed Models**
+
+    -   Fitting $p$-splines and other no-standard models
+
+    -   Plotting spline fits
+
+    -   Exploring fixed and random effects
+
+    -   Outlier detection
+
+    -   Power analysis for a fixed term or contrast
+
+</details>
+
+<details>
+
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
+
+From fishing trips to stock indicators: An introduction to fisheries catch rate standardisation in `R`
+
+</summary>
+
+This interactive half-day workshop will introduce you to the standardisation of fisheries catch rates (CPUE) using `R`. You'll work with a realistic simulated catch-and-effort dataset and step through the key stages and decisions of a CPUE standardisation workflow, including:
+
+-   Filtering data
+
+-   Considering model structure and covariates
+
+-   Fitting simple CPUE linear models, and
+
+-   Generating annual predictions
+
+You’ll gain an applied understanding of why catch rates often need to be standardised, how to fit and interpret simple CPUE standardisation models in `R`, how to generate and visualise annual standardised indices, and how those indices are used within a stock assessment context. We’ll explore some conceptual conundrums, like targeting behaviour and fishing efficiency. The content will focus on practical modelling decisions and reproducible analysis.
+
+The workshop will be accessible to participants without a fisheries background. A basic understanding of `R` would be helpful. 
+
+</details>

@@ -2,8 +2,172 @@
 title: Registration
 ---
 
+```{r rego, echo=FALSE}
+# Load the required library
+library(kableExtra)
+
+# Create a data frame
+# conf_rego <- data.frame(
+#   Item = c("Full conference registration (including conference dinner)", "Standard rate ($AUD)"),
+#   Full conference registration (including conference dinner) = c(996, 1165),
+#   Full conference registration (student) = c(699, 848),
+#   Full-day workshop ($30^{th}$ November) = c(, 266),
+#   Full-day registration only (Tuesday or Thursday) = c(, 372),
+#   Half-day registration only (Wednesday or Friday) = c(, 319) 
+# )
+# 
+# Early-bird rate 
+# Standard rate
+
+conf_rego <- data.frame(
+  Item = c("Full conference registration (including conference dinner)", 
+           "Full conference registration (student)",
+           "Full-day workshop",
+           "Half-day workshop",
+           "Full-day registration only (Tuesday or Thursday)",
+           "Half-day registration only (Wednesday or Friday)",
+           "Welcome reception extra guest",
+           "Conference dinner extra guest"),
+  `Early-bird rate` = c("996", "699", "", "", "", "", "", ""),
+  `Standard rate` = c("1165", "848", "319", "234", "372", "319", "129", "182")
+)
+
+
+# Generate a table
+conf_rego |> 
+  kable(format = "html", caption = "Conference registration prices ($AUD)",
+        col.names=c("Item", "Early-bird rate", "Standard rate"), escape=FALSE) |> 
+  kable_styling(bootstrap_options = c("striped"), full_width = FALSE) |> 
+   row_spec(0, bold = TRUE, color = "white", background = "#0073e6") |>  # Header row styling
+  row_spec(1, background = "#f2f2f2") |>  # Row 1 styling
+  row_spec(2, background = "#e6f7ff") |>  # Row 2 styling
+  row_spec(3, background = "#f2f2f2") |>   # Row 3 styling
+  row_spec(4, background = "#e6f7ff") |>  # Row 4 styling
+  row_spec(5, background = "#f2f2f2") |>   # Row 5 styling
+    row_spec(4, background = "#e6f7ff") |>  # Row 6 styling
+  #column_spec(2, align="right") |>  # Right-align column
+  #column_spec(3, align="right") |> 
+   add_footnote(
+     label=c("Full conference registration includes attendance of all conference days, at the welcome reception, poster session and the conference dinner. Pre-conference workshop registration is separate.", "Day registrations include morning tea, lunch, and continuous tea/coffee.", "To access the student discount, you must be a student currently completing postgraduate (masters or PhD) research at a recognised university. To apply for the student discount, please email michael.mumford@dpi.qld.gov.au declaring that you are a student at the corresponding research instituion. A letterhead must be included in the email.")
+     )
+  
+  
+```
+
+## Conference workshops
+
+[Click here](https://aasc2026.netlify.app/workshop) for more information about the pre-conference workshops
+
+## Social activities
+
+
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #0073e6; color: white; text-align: left;">
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Name</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Time and Duration</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Location</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><b>Walking along the oceanfront</b></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        Enjoy a guided group walk along Mooloolaba and Maroochydore oceanfront.<br><br>
+        <ul>
+          <li><b>1:30pm – 2:00pm:</b> Explore the rocky beachfront across from the Mantra Mooloolaba.</li>
+          <li><b>2:00pm – 3:30pm:</b> Walk north along the oceanfront to Maroochydore Beach and back.</li>
+          <li><b>3:30pm onwards:</b> Optional refreshments or additional walking.</li>
+        </ul>
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">1:30pm–3:30pm</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mooloolaba Beach</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">$0</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><b>Aquaduck</b></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        Explore Mooloolaba by land and sea on the Aquaduck Sunshine Coast.<br><br>
+        <ul>
+          <li>Departs directly in front of SEA LIFE Sunshine Coast.</li>
+          <li>Combines the best sights of Mooloolaba into one fun and exciting tour.</li>
+        </ul>
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2:00pm (1 hour)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Near SEA LIFE</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">$56</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><b>Mooloolaba Canal Cruise</b></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        Relaxing sunset cruise through the calm waters of the Mooloolah River.<br><br>
+        <ul>
+          <li>Departs from Mooloolaba Wharf.</li>
+          <li>Enjoy live commentary about the region’s history and significance.</li>
+        </ul>
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sunset (~6:10pm)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mooloolaba Wharf</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">$35</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><b>Ginger Factory</b></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        Tour the world’s largest operating ginger factory and enjoy its attractions.<br><br>
+        <ul>
+          <li>Tastes of Ginger tour.</li>
+          <li>Live Bee Show.</li>
+          <li>Ginger Train Ride.</li>
+        </ul>
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">1:30pm–4:15pm</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Yandina</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">$72.50</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><b>Montville</b></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        Explore shops, galleries, and cafés in Montville.<br><br>
+        <ul>
+          <li>Free time to explore the main strip.</li>
+          <li>Optional group afternoon tea at Poets Café at 3:30pm.</li>
+        </ul>
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">1:00pm–5:45pm</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Montville</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">$32.50</td>
+    </tr>
+  </tbody>
+</table>
+
+## Travel insurance
+
+We recommend you to get travel insurance.
+
+[Click here](https://aasc2026.netlify.app/social) for more information about the conference social activities
+
 ## Cancellation policy
 
-TBA
+Cancellations must be notified in writing to [the conference organisers](mailto:michael.mumford@dpi.qld.gov.au)
 
-For questions or further information, please contact [michael.mumford\@dpi.qld.gov.au](mailto:michael.mumford@dpi.qld.gov.au)
+Cancellations notified before 1st October 2026 will be given an 80% refund. After this date, but prior to 14th November the refund will be 50%. After 14th November 2026, there will be no refund. This policy applies to conference registrations and to the social program.
+
+## While registering, accept AGUAi membership
+
+Despite its name, the Australasian Genstat Users Association Inc (AGUAi) exists specifically to organise this biennial conference. As you register for the conference, please accept free membership. You will then be placed on the conference email list to stay informed about future AASC conferences and be eligible to vote on who gets to organise the next AASC. For historical reasons, the formal objectives of the association are:
+
+-   To foster association between persons involved or interested in the application of statistical methods
+
+-   To foster association between persons involved or interested in using Genstat
+
+-   To organise meetings and events focused on statistical and statistical computing issues. 
+
+The Rules of Association are available <a href="files/AGUAi_rules_of_Association.pdf" download>here</a>.

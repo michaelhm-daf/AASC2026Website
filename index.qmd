@@ -12,14 +12,18 @@ If you would like to keep up to date with any major announcements regarding the 
 
 ## Sponsorship
 
-If you or your organisation are interested in sponsoring the conference, please email interest to [michael.mumford\@dpi.qld.gov.au](mailto:michael.mumford@dpi.qld.gov.au)
+If you or your organisation are interested in sponsoring the conference, please email interest to [the conference organisers](mailto:michael.mumford@dpi.qld.gov.au)
 
 ## Contact Information
 
-For general inquiries regarding the AASC 2026 conference, please contact the secretary Michael Mumford at [michael.mumford\@dpi.qld.gov.au](mailto:michael.mumford@dpi.qld.gov.au)
+For general inquiries regarding the AASC 2026 conference, please contact [the secretary](mailto:michael.mumford@dpi.qld.gov.au)
 
 ## <i class="fas fa-calendar"></i> Important dates
 
 {{< include _dates.qmd >}}
 
 <br>
+
+## Australian Data Science Network Conference 2026
+
+Looking for another conference to attend just prior to AASC2026? The Australian Data Science Network (ADSN) 2026 conference will be held on Thursday the $26^{th}$ and Friday the $27^{th}$ November in Canberra the week before AASC2026. See the [ADSN conference website](https://adsnconf2026.netlify.app/) for more information.

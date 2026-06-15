@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -99,11 +128,11 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-program">    
         <li>
     <a class="dropdown-item" href="./keynote.html">
- <span class="dropdown-text">Keynote Speakers</span></a>
+ <span class="dropdown-text">Keynote speakers</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./workshop.html">
- <span class="dropdown-text">Workshop</span></a>
+ <span class="dropdown-text">Workshops</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./social.html">
@@ -158,6 +187,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sponsorship" id="toc-sponsorship" class="nav-link" data-scroll-target="#sponsorship">Sponsorship</a></li>
   <li><a href="#contact-information" id="toc-contact-information" class="nav-link" data-scroll-target="#contact-information">Contact Information</a></li>
   <li><a href="#important-dates" id="toc-important-dates" class="nav-link" data-scroll-target="#important-dates"><i class="fas fa-calendar"></i> Important dates</a></li>
+  <li><a href="#australian-data-science-network-conference-2026" id="toc-australian-data-science-network-conference-2026" class="nav-link" data-scroll-target="#australian-data-science-network-conference-2026">Australian Data Science Network Conference 2026</a></li>
   </ul>
 </nav>
     </div>
@@ -191,11 +221,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sponsorship" class="level2">
 <h2 class="anchored" data-anchor-id="sponsorship">Sponsorship</h2>
-<p>If you or your organisation are interested in sponsoring the conference, please email interest to <a href="mailto:michael.mumford@dpi.qld.gov.au">michael.mumford@dpi.qld.gov.au</a></p>
+<p>If you or your organisation are interested in sponsoring the conference, please email interest to <a href="mailto:michael.mumford@dpi.qld.gov.au">the conference organisers</a></p>
 </section>
 <section id="contact-information" class="level2">
 <h2 class="anchored" data-anchor-id="contact-information">Contact Information</h2>
-<p>For general inquiries regarding the AASC 2026 conference, please contact the secretary Michael Mumford at <a href="mailto:michael.mumford@dpi.qld.gov.au">michael.mumford@dpi.qld.gov.au</a></p>
+<p>For general inquiries regarding the AASC 2026 conference, please contact <a href="mailto:michael.mumford@dpi.qld.gov.au">the secretary</a></p>
 </section>
 <section id="important-dates" class="level2">
 <h2 class="anchored" data-anchor-id="important-dates"><i class="fas fa-calendar"></i> Important dates</h2>
@@ -238,6 +268,10 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p><br></p>
+</section>
+<section id="australian-data-science-network-conference-2026" class="level2">
+<h2 class="anchored" data-anchor-id="australian-data-science-network-conference-2026">Australian Data Science Network Conference 2026</h2>
+<p>Looking for another conference to attend just prior to AASC2026? The Australian Data Science Network (ADSN) 2026 conference will be held on Thursday the <span class="math inline">\(26^{th}\)</span> and Friday the <span class="math inline">\(27^{th}\)</span> November in Canberra the week before AASC2026. See the <a href="https://adsnconf2026.netlify.app/">ADSN conference website</a> for more information.</p>
 
 
 </section>

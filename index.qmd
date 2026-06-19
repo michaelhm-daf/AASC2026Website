@@ -6,9 +6,14 @@ We would like to cordially invite you to Queensland for the Australasian Applied
 
 ![](images/MooloolabaBeach.jpg)
 
-## Register your interest
+# [Conference registration is now open](https://aasc2026.netlify.app/registration)
 
-If you would like to keep up to date with any major announcements regarding the AASC 2026 conference, [please register your interest here](https://forms.office.com/r/YDFLimcmGj)
+## <i class="fas fa-calendar"></i> Important dates
+
+{{< include _dates.qmd >}}
+
+<br>
+
 
 ## Sponsorship
 
@@ -17,12 +22,6 @@ If you or your organisation are interested in sponsoring the conference, please 
 ## Contact Information
 
 For general inquiries regarding the AASC 2026 conference, please contact [the secretary](mailto:michael.mumford@dpi.qld.gov.au)
-
-## <i class="fas fa-calendar"></i> Important dates
-
-{{< include _dates.qmd >}}
-
-<br>
 
 ## Australian Data Science Network Conference 2026
 

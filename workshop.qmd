@@ -45,6 +45,10 @@ The workshop is oriented toward practical analysis of real datasets. Participant
 3.  **Expanding to Complex Structures**\
     Modelling multi-stratum designs with multiple layers of correlation between random effects and residuals.
 
+<h3>Presenter</h3>
+
+Dr. Salvador Gezan (VSNi)
+
 </details>
 
 <details>
@@ -103,6 +107,12 @@ This full-day masterclass will highlight some new additions and hidden features 
 
     -   Power analysis for a fixed term or contrast
 
+<h3>Presenters</h3>
+
+-   Dr. David Baird (VSNi)
+
+-   Dr. Vanessa Cave (VSNi)
+
 </details>
 
 <details>
@@ -125,6 +135,28 @@ This interactive half-day workshop will introduce you to the standardisation of 
 
 You’ll gain an applied understanding of why catch rates often need to be standardised, how to fit and interpret simple CPUE standardisation models in `R`, how to generate and visualise annual standardised indices, and how those indices are used within a stock assessment context. We’ll explore some conceptual conundrums, like targeting behaviour and fishing efficiency. The content will focus on practical modelling decisions and reproducible analysis.
 
-The workshop will be accessible to participants without a fisheries background. A basic understanding of `R` would be helpful. 
+The workshop will be accessible to participants without a fisheries background. A basic understanding of `R` would be helpful.
+
+<h3>Presenters</h3>
+
+-   Alise Fox (Queensland Department of Primary Industries)
+
+-   Joanne Wortmann (Queensland Department of Primary Industries)
+
+</details>
+
+<details>
+
+<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
+
+BLUP and Bayesian methods for genomic prediction
+
+</summary>
+
+TBA
+
+<h3>Presenter</h3>
+
+Professor Ben Hayes (University of Queensland)
 
 </details>

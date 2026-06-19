@@ -66,11 +66,36 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 
-<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -158,11 +183,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#conference-workshops" id="toc-conference-workshops" class="nav-link active" data-scroll-target="#conference-workshops">Conference workshops</a></li>
+  <li><a href="#conference-registration-is-now-open" id="toc-conference-registration-is-now-open" class="nav-link active" data-scroll-target="#conference-registration-is-now-open">Conference registration is now open</a>
+  <ul class="collapse">
+  <li><a href="#conference-registration-prices" id="toc-conference-registration-prices" class="nav-link" data-scroll-target="#conference-registration-prices">Conference registration prices:</a>
+  <ul class="collapse">
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes:</a></li>
+  </ul></li>
+  <li><a href="#conference-dinner" id="toc-conference-dinner" class="nav-link" data-scroll-target="#conference-dinner">Conference dinner</a></li>
+  <li><a href="#conference-workshops" id="toc-conference-workshops" class="nav-link" data-scroll-target="#conference-workshops">Conference workshops</a></li>
   <li><a href="#social-activities" id="toc-social-activities" class="nav-link" data-scroll-target="#social-activities">Social activities</a></li>
   <li><a href="#travel-insurance" id="toc-travel-insurance" class="nav-link" data-scroll-target="#travel-insurance">Travel insurance</a></li>
   <li><a href="#cancellation-policy" id="toc-cancellation-policy" class="nav-link" data-scroll-target="#cancellation-policy">Cancellation policy</a></li>
   <li><a href="#while-registering-accept-aguai-membership" id="toc-while-registering-accept-aguai-membership" class="nav-link" data-scroll-target="#while-registering-accept-aguai-membership">While registering, accept AGUAi membership</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -188,81 +221,125 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="cell">
-<div class="cell-output-display">
-<table class="table table-striped caption-top table-sm small" data-quarto-postprocess="true">
-<caption>Conference registration prices ($AUD)</caption>
+<section id="conference-registration-is-now-open" class="level1">
+<h1>Conference registration is now open</h1>
+<p>Please select the following link to <a href="https://www.eventbrite.com.au/e/australasian-applied-statistics-conference-2026-tickets-1990841421283?aff=oddtdtcreator"><strong>register for the AASC2026 conference.</strong></a></p>
+<section id="conference-registration-prices" class="level2">
+<h2 class="anchored" data-anchor-id="conference-registration-prices">Conference registration prices:</h2>
+<p>The following table outlines the conference registration prices in $AUD:</p>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
 <thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(0, 115, 230, 255) !important;">Item</th>
-<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(0, 115, 230, 255) !important;">Early-bird rate</th>
-<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(0, 115, 230, 255) !important;">Standard rate</th>
+<tr style="background-color: #0073e6; color: white; text-align: left;">
+<th style="padding: 10px; border: 1px solid #ddd;">
+Item
+</th>
+<th style="padding: 10px; border: 1px solid #ddd;">
+Early-bird rate
+</th>
+<th style="padding: 10px; border: 1px solid #ddd;">
+Standard rate
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">Full conference registration (including conference dinner)</td>
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">996</td>
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">1165</td>
+<tr style="background-color: #f2f2f2;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+Full conference registration<span class="math inline">\(^1\)</span>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+996
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+1165
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important;">Full conference registration (student)</td>
-<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important;">699</td>
-<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important;">848</td>
+<tr style="background-color: #e6f7ff;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+Full conference registration<span class="math inline">\(^{1,3}\)</span> (student)
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+699
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+848
+</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">Full-day workshop</td>
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;"></td>
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">319</td>
+<tr style="background-color: #f2f2f2;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+Full-day workshop<span class="math inline">\(^2\)</span>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+319
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important; background-color: rgba(230, 247, 255, 255) !important;">Half-day workshop</td>
-<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important; background-color: rgba(230, 247, 255, 255) !important;"></td>
-<td style="text-align: left; background-color: rgba(230, 247, 255, 255) !important; background-color: rgba(230, 247, 255, 255) !important;">234</td>
+<tr style="background-color: #e6f7ff;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+Half-day workshop<span class="math inline">\(^2\)</span>
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+234
+</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">Full-day registration only (Tuesday or Thursday)</td>
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;"></td>
-<td style="text-align: left; background-color: rgba(242, 242, 242, 255) !important;">372</td>
+<tr style="background-color: #f2f2f2;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+Full-day registration only<span class="math inline">\(^2\)</span> (Tuesday or Thursday)
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+372
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">Half-day registration only (Wednesday or Friday)</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">319</td>
+<tr style="background-color: #e6f7ff;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+Half-day registration only<span class="math inline">\(^2\)</span> (Wednesday or Friday)
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+319
+</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Welcome reception extra guest</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">129</td>
+<tr style="background-color: #f2f2f2;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+Welcome reception extra guest
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+129
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">Conference dinner extra guest</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">182</td>
+<tr style="background-color: #e6f7ff;">
+<td style="padding: 10px; border: 1px solid #ddd;">
+Conference dinner (Thursday evening) extra guest
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+</td>
+<td style="padding: 10px; border: 1px solid #ddd;">
+182
+</td>
 </tr>
-</tbody><tfoot>
-<tr class="odd">
-<td style="text-align: left; padding: 0; border: 0;"><sup>a</sup> Full conference registration includes attendance of all conference days, at the welcome reception, poster session and the conference dinner. Pre-conference workshop registration is separate.</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left; padding: 0; border: 0;"><sup>b</sup> Day registrations include morning tea, lunch, and continuous tea/coffee.</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left; padding: 0; border: 0;"><sup>c</sup> To access the student discount, you must be a student currently completing postgraduate (masters or PhD) research at a recognised university. To apply for the student discount, please email michael.mumford@dpi.qld.gov.au declaring that you are a student at the corresponding research instituion. A letterhead must be included in the email.</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-</tfoot>
-
+</tbody>
 </table>
-
-
-</div>
-</div>
+<hr>
+<section id="notes" class="level3">
+<h3 class="anchored" data-anchor-id="notes">Notes:</h3>
+<ol type="1">
+<li>Full conference registration includes attendance of all conference days, at the welcome reception, poster session, and the conference dinner. Pre-conference workshop registration is separate.</li>
+<li>Day registrations include morning tea, lunch, and continuous tea/coffee.</li>
+<li>To access the student discount, you must be a student currently completing postgraduate (masters or PhD) research at a recognised university. To apply for the student discount, please email <a href="mailto:michael.mumford@dpi.qld.gov.au">the secretary</a> declaring that you are a student at the corresponding research institution. A letterhead must be included in the email.</li>
+</ol>
+</section>
+</section>
+<section id="conference-dinner" class="level2">
+<h2 class="anchored" data-anchor-id="conference-dinner">Conference dinner</h2>
+<p>The conference dinner will be held at Mooloolaba Marina (formerly <a href="https://www.pier33.com.au/">Pier 33</a>) on Thursday evening the 3rd December. Further details will be announced soon!</p>
+</section>
 <section id="conference-workshops" class="level2">
 <h2 class="anchored" data-anchor-id="conference-workshops">Conference workshops</h2>
 <p><a href="https://aasc2026.netlify.app/workshop">Click here</a> for more information about the pre-conference workshops</p>
@@ -349,7 +426,7 @@ Combines the best sights of Mooloolaba into one fun and exciting tour.
 Near SEA LIFE
 </td>
 <td style="padding: 10px; border: 1px solid #ddd;">
-$56
+$60
 </td>
 </tr>
 <tr>
@@ -377,7 +454,7 @@ Sunset (~6:10pm)
 Mooloolaba Wharf
 </td>
 <td style="padding: 10px; border: 1px solid #ddd;">
-$35
+$38
 </td>
 </tr>
 <tr style="background-color: #f9f9f9;">
@@ -408,7 +485,7 @@ Ginger Train Ride.
 Yandina
 </td>
 <td style="padding: 10px; border: 1px solid #ddd;">
-$72.50
+$78
 </td>
 </tr>
 <tr>
@@ -436,7 +513,7 @@ Optional group afternoon tea at Poets Café at 3:30pm.
 Montville
 </td>
 <td style="padding: 10px; border: 1px solid #ddd;">
-$32.50
+$36
 </td>
 </tr>
 </tbody>
@@ -463,6 +540,7 @@ $32.50
 <p>The Rules of Association are available <a href="files/AGUAi_rules_of_Association.pdf" download="">here</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -5,5 +5,5 @@
 | Jul 3          | **Closing date for abstract submission** |
 | Aug 4          | **Notify acceptance of abstracts**       |
 | Aug 28         | **Close for early bird registration**    |
-| Nov 29         | **Workshop**                             |
-| Nov 30 - Dec 4 | **Conference**                           |
+| Nov 30         | **Pre-conference Workshops**             |
+| Dec 1 - 4      | **Conference**                           |

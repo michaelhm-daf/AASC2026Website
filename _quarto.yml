@@ -4,8 +4,11 @@ project:
 website:
   title: "#AASC2026"
   page-footer: |
-    Sponsored by [VSNi](https://vsni.co.uk/)  
-    ![](/images/sponsors/VSNi_logo.png){fig-alt="VSNi" height="4em"}  
+    Sponsored by [VSNi](https://vsni.co.uk/) and the [Queensland Department of Primary Industries](https://www.dpi.qld.gov.au/) 
+    <div style="display: flex; justify-content: center; align-items: center; gap: 1em; margin-top: 1em;">
+      <img src="/images/sponsors/VSNi_logo.png" alt="VSNi" style="height: 4em; margin-right: 1em;">
+      <img src="/images/sponsors/DPI_logo.png" alt="Queensland Department of Primary Industries" style="height: 5em; margin-left: 5em;">
+    </div>
     <br><br>
     Australasian Applied Statistics Conference, Sunshine Coast, Australia
   navbar:

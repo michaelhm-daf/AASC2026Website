@@ -2,33 +2,57 @@
 title: "Organisers"
 ---
 
+## Executive team
+
+-   Bethany Rognoni (Chairperson, UniSQ)
+
+-   Helena Oakey (Vice Chairperson, SAHMRI)
+
+-   Colleen Hunt (Treasurer, QDPI)
+
+-   Michael Mumford (Secretary, QDPI)
+
+## Committee members
+
+-   Angela Anderson (QDPI)
+-   David Baird (VSNi)
+-   Kerry Bell (QDPI)
+-   Ruth Butler (StatsWork)
+-   Vanessa Cave (VSNi)
+-   Pauline Ding (UoW)
+-   Clayton Forknall (AU)
+-   Olena Kravchuk (AU)
+-   Ky Mathews (QDPI)
+-   Bec O'Leary (CU)
+-   David Reid (QDPI)
+-   Andrew Van Burgel (DPIRD WA)
+-   Carole Wright (QDPI)
+-   Jin Yoon (CSIRO, Vic)
+
 ## Local organising committee
 
-- Bethany Rognoni (UniSQ, Lead)
-- Angela Anderson (QDPI)
-- Clayton Forknall (AU)
-- David Reid (QDPI)
-- Kerry Bell (QDPI)
-- Ky Mathews (QDPI)
-- Michael Mumford (QDPI)
-
+-   Angela Anderson (QDPI, Lead)
+-   Bethany Rognoni (UniSQ)
+-   Clayton Forknall (AU)
+-   David Reid (QDPI)
+-   Kerry Bell (QDPI)
+-   Ky Mathews (QDPI)
+-   Michael Mumford (QDPI)
 
 ## Scientific committee
 
-- Colleen Hunt (QDPI, Lead)
-- David Baird (VSNi)
-- Helena Oakey (SAHMRI)
-- Jin Yoon (CSIRO)
-- Pauline Ding (UoW)
-- Rebecca O'Leary (Curtin)
-- Ruth Butler (StatsWork)
-- Vanessa Cave (VSNi)
-
+-   Colleen Hunt (QDPI, Lead)
+-   David Baird (VSNi)
+-   Helena Oakey (SAHMRI)
+-   Jin Yoon (CSIRO)
+-   Pauline Ding (UoW)
+-   Ruth Butler (StatsWork)
+-   Vanessa Cave (VSNi)
 
 ## Website team
 
-- Michael Mumford (QDPI, Lead)
-- Bethany Rognoni (UniSQ)
-- Colleen Hunt (QDPI)
-- Vanessa Cave (VSNi)
-
+-   Michael Mumford (QDPI, Lead)
+-   Bethany Rognoni (UniSQ)
+-   Colleen Hunt (QDPI)
+-   Ky Mathews (QDPI)
+-   Vanessa Cave (VSNi)

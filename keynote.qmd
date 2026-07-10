@@ -130,11 +130,11 @@ Dr. Ruth Butler
 
 <h3>Presentation Title</h3>
 
-TBA
+Consulting in the real world: reflections, comments and data
 
 <h3>Abstract</h3>
 
-TBA
+I have worked as a statistical consultant for a long time now, working primarily in Agriculture and Horticulture science institutes. Along the way, I have developed some strong opinions about statistics and how statisticians work. I will discuss some of these. I will then present a couple of relatively recent pieces of work, each with a statistical challenge.
 
 <h3>Biography</h3>
 

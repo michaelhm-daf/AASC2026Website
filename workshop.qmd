@@ -2,10 +2,6 @@
 title: "Workshops"
 ---
 
----
-title: "Workshops"
----
-
 We are excited to announce the following pre-conference workshops will take place on Monday the $30^{\text{th}}$ November.
 
 <details>
@@ -63,55 +59,55 @@ This full-day masterclass will highlight some new additions and hidden features 
 
 1.  **New Features in Genstat 24**
 
-    -   *New graphics menus:* irregular shade and tessellation plots, forest and pirate plots, ROC curves, adding shaded confidence regions to graphs
+    - *New graphics menus:* irregular shade and tessellation plots, forest and pirate plots, ROC curves, adding shaded confidence regions to graphs
 
-    -   *New statistical menus:* bimodality and outlier tests, tabulating text, fitting smooth surfaces to irregular points, repeated measures with censoring
+    - *New statistical menus:* bimodality and outlier tests, tabulating text, fitting smooth surfaces to irregular points, repeated measures with censoring
 
-    -   *Menu updates:* General ANOVA - transformations and multiple Y variates
+    - *Menu updates:* General ANOVA - transformations and multiple Y variates
 
-    -   *New spreadsheet features*
+    - *New spreadsheet features*
 
 2.  **Advanced Data Handling in Genstat**
 
-    -   Importing and exporting data in programs
+    - Importing and exporting data in programs
 
-    -   Working with pointers and substitution
+    - Working with pointers and substitution
 
-    -   Useful functions when programming
+    - Useful functions when programming
 
-    -   Merging, appending, subsetting, stacking, and unstacking data in programs
+    - Merging, appending, subsetting, stacking, and unstacking data in programs
 
-    -   Making the most of the spreadsheet facilities
+    - Making the most of the spreadsheet facilities
 
 3.  **Building Your Own Graphs by Programming**
 
-    -   Better keys with `DKEY`
+    - Better keys with `DKEY`
 
-    -   Labelling points and controlling label positioning
+    - Labelling points and controlling label positioning
 
-    -   Non-standard plotting symbols and icons
+    - Non-standard plotting symbols and icons
 
-    -   Adding text, arrows, error bars, lines and shaded regions to graphs
+    - Adding text, arrows, error bars, lines and shaded regions to graphs
 
-    -   Overlaying graphs
+    - Overlaying graphs
 
 4.  **Extra Features When Fitting Mixed Models**
 
-    -   Fitting $p$-splines and other no-standard models
+    - Fitting $p$-splines and other no-standard models
 
-    -   Plotting spline fits
+    - Plotting spline fits
 
-    -   Exploring fixed and random effects
+    - Exploring fixed and random effects
 
-    -   Outlier detection
+    - Outlier detection
 
-    -   Power analysis for a fixed term or contrast
+    - Power analysis for a fixed term or contrast
 
 <h3>Presenters</h3>
 
--   Dr. David Baird (VSNi)
+- Dr. David Baird (VSNi)
 
--   Dr. Vanessa Cave (VSNi)
+- Dr. Vanessa Cave (VSNi)
 
 </details>
 
@@ -125,13 +121,13 @@ From fishing trips to stock indicators: An introduction to fisheries catch rate 
 
 This interactive half-day workshop will introduce you to the standardisation of fisheries catch rates (CPUE) using `R`. You'll work with a realistic simulated catch-and-effort dataset and step through the key stages and decisions of a CPUE standardisation workflow, including:
 
--   Filtering data
+- Filtering data
 
--   Considering model structure and covariates
+- Considering model structure and covariates
 
--   Fitting simple CPUE linear models, and
+- Fitting simple CPUE linear models, and
 
--   Generating annual predictions
+- Generating annual predictions
 
 You’ll gain an applied understanding of why catch rates often need to be standardised, how to fit and interpret simple CPUE standardisation models in `R`, how to generate and visualise annual standardised indices, and how those indices are used within a stock assessment context. We’ll explore some conceptual conundrums, like targeting behaviour and fishing efficiency. The content will focus on practical modelling decisions and reproducible analysis.
 
@@ -139,9 +135,9 @@ The workshop will be accessible to participants without a fisheries background. 
 
 <h3>Presenters</h3>
 
--   Alise Fox (Queensland Department of Primary Industries)
+- Alise Fox (Queensland Department of Primary Industries)
 
--   Joanne Wortmann (Queensland Department of Primary Industries)
+- Joanne Wortmann (Queensland Department of Primary Industries)
 
 </details>
 

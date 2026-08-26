@@ -19,6 +19,7 @@ website:
         text: Home
       - text: Program
         menu: 
+          -  href: schedule.qmd
           -  href: keynote.qmd
           -  href: workshop.qmd
           - href: social.qmd

@@ -1,0 +1,225 @@
+.schedule-card {
+
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+
+  border-left: 6px solid #666;
+
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+
+  color: #000;
+}
+
+
+/* Registration */
+
+.schedule-card.registration {
+
+  background-color: #dff5f5;
+  border-left-color: #2c7a7b;
+}
+
+
+/* Opening & Closing */
+
+.schedule-card.opening,
+.schedule-card.close {
+
+  background-color: #e7f1ff;
+  border-left-color: #3f72af;
+}
+
+
+/* Keynotes */
+
+.schedule-card.keynote {
+
+  background-color: #fff4d6;
+  border-left-color: #d4a017;
+}
+
+
+/* Contributed Talks */
+
+.schedule-card.talk {
+
+  background-color: #e8f7e8;
+  border-left-color: #4c9f50;
+}
+
+
+/* Breaks */
+
+.schedule-card.break {
+
+  background-color: #f2f2f2;
+  border-left-color: #8c8c8c;
+}
+
+
+/* Social Events */
+
+.schedule-card.social {
+
+  background-color: #f1e6ff;
+  border-left-color: #7b61b3;
+}
+
+
+/* Panels */
+
+.schedule-card.panel {
+
+  background-color: #ffe9dc;
+  border-left-color: #d97f41;
+}
+
+
+/* Chairs */
+
+.schedule-chair {
+
+  margin-top: 6px;
+
+  margin-bottom: 10px;
+
+  font-style: italic;
+
+  color: #555;
+}
+
+/* Time */
+
+.schedule-time {
+
+  font-weight: bold;
+  color: #333;
+  font-size: 1.05rem;
+}
+
+
+/* Title */
+
+.schedule-title {
+
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 4px;
+}
+
+
+/* Speaker */
+
+.schedule-speaker {
+
+  color: #555;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+/* Talk entry */
+
+.talk-entry {
+
+  background-color: rgba(255,255,255,0.6);
+
+  padding: 10px;
+
+  margin-top: 10px;
+
+  border-radius: 8px;
+
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Talk time */
+
+.talk-time {
+
+  font-weight: bold;
+
+  color: #444;
+
+  margin-bottom: 3px;
+}
+
+/* Talk title */
+
+.talk-title {
+
+  font-weight: 600;
+
+  font-size: 1rem;
+}
+
+/* Talk speaker */
+
+.talk-speaker {
+
+  color: #666;
+
+  margin-bottom: 8px;
+}
+
+/* Abstract details */
+.abstract-details {
+
+  margin-top: 8px;
+}
+
+/* Abstract details summary */
+.abstract-details summary {
+
+  font-size: 0.9rem;
+
+  color: #555;
+
+  cursor: pointer;
+}
+
+/* Details summary */
+details summary {
+
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+/* Biography details */
+.bio-details {
+
+  margin-top: 8px;
+}
+
+/* Biography details summary */
+.bio-details summary {
+
+  cursor: pointer;
+
+  color: #555;
+
+  font-size: 0.9rem;
+}
+
+/* Biography details p */
+.bio-details p {
+
+  margin-top: 8px;
+
+  line-height: 1.4;
+}
+
+/* Abstract dropdown */
+
+details {
+
+  margin-top: 10px;
+}
+
+summary {
+
+  cursor: pointer;
+  font-weight: 600;
+  color: #444;
+}

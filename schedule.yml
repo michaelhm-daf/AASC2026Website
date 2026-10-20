@@ -1,0 +1,53 @@
+days:
+
+  - name: "Monday 30 November 2026"
+
+    sessions:
+
+      - time: "09:00"
+        type: keynote
+        session_no: "Keynote #1 - P "
+        chair: "Michael Mumford"
+
+        talks:
+
+          - title: "The Future of Applied Statistics"
+            speaker: "Professor Jane Smith"
+
+            abstract: |
+              This keynote explores emerging
+              directions in applied statistics.
+
+              Future opportunities and challenges
+              are discussed.
+
+      - time: "10:45"
+        type: talk
+        session_no: "Session 1"
+        chair: "Valeria Paccapelo"
+
+        talks:
+
+          - time: "10:45"
+            title: "Bayesian Methods in Agriculture"
+            speaker: "John Citizen"
+
+            abstract: |
+              Applications of Bayesian inference
+              in modern agricultural trials.
+
+          - time: "11:05"
+            title: "Mixed Models for Variety Trials"
+            speaker: "Sarah Jones"
+
+            abstract: |
+              Mixed model approaches for
+              multi-environment trials.
+
+          - time: "11:25"
+            title: "Machine Learning Applications"
+            speaker: "David Green"
+
+            abstract: |
+              Modern machine learning methods
+              for agricultural data.

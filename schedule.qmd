@@ -1,7 +1,251 @@
 ---
-title: "Schedule at a glance"
+title: "Conference Program"
+format:
+  html:
+    css: _schedule.css
 ---
 
-The information shown below is current as of the 26th August 2026 and is meant to be a preliminary schedule only. The draft schedule is subject to change without notice.
+## Schedule 
+The schedule at a glance can be found <a href="images/ProgramLayout.png">here</a>.
 
-![](images/ProgramLayout.png)
+The information shown below is current as of the 20th October 2026. The schedule is subject to change without notice.
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+library(yaml)
+library(htmltools)
+
+program <- suppressWarnings(
+  read_yaml("_schedule.yml")
+)
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+library(yaml)
+
+program <- suppressWarnings(
+  read_yaml("_schedule.yml")
+)
+
+cat("::: {.panel-tabset}\n")
+
+for(day in program$days){
+
+  cat(paste0("### ", day$name, "\n\n"))
+
+  for(session in day$sessions){
+
+    cat(
+      sprintf(
+        '<div class="schedule-card %s">\n',
+        session$type
+      )
+    )
+
+    # Time
+
+    if(!is.null(session$time)){
+
+      cat(
+        sprintf(
+          '<div class="schedule-time">%s</div>\n',
+          session$time
+        )
+      )
+
+    }
+
+    # ------------------------------------------------------------------
+    # Sessions WITH talks (Keynotes / Contributed Sessions)
+    # ------------------------------------------------------------------
+
+    if(!is.null(session$talks)){
+
+      # Session title
+
+      if(!is.null(session$session_no)){
+
+        cat(
+          sprintf(
+            '<div class="schedule-title">%s</div>\n',
+            session$session_no
+          )
+        )
+
+      }
+
+      # Chair
+
+      if(!is.null(session$chair)){
+
+        cat(
+          sprintf(
+            '<div class="schedule-chair">Chair: %s</div>\n',
+            session$chair
+          )
+        )
+
+      }
+
+      cat("<details>\n")
+      cat("<summary>Details</summary>\n")
+
+      for(talk in session$talks){
+
+        cat('<div class="talk-entry">\n')
+
+        # Talk time (optional)
+
+        if(!is.null(talk$time)){
+
+          cat(
+            sprintf(
+              '<div class="talk-time">%s</div>\n',
+              talk$time
+            )
+          )
+
+        }
+
+        # Talk title
+
+        if(!is.null(talk$title)){
+
+          cat(
+            sprintf(
+              '<div class="talk-title">%s</div>\n',
+              talk$title
+            )
+          )
+
+        }
+
+        # Speaker
+
+        if(!is.null(talk$speaker)){
+
+          cat(
+            sprintf(
+              '<div class="talk-speaker">%s</div>\n',
+              talk$speaker
+            )
+          )
+
+        }
+
+        # ------------------------------------------------------------
+        # ABSTRACT
+        # ------------------------------------------------------------
+
+        if(!is.null(talk$abstract)){
+
+          cat('<details class="abstract-details">\n')
+          cat('<summary>Abstract</summary>\n')
+
+          abstract_paragraphs <-
+            strsplit(
+              talk$abstract,
+              "\n\n"
+            )[[1]]
+
+          for(p in abstract_paragraphs){
+
+            cat(
+              sprintf(
+                "<p>%s</p>\n",
+                p
+              )
+            )
+
+          }
+
+          cat('</details>\n')
+
+        }
+
+        # ------------------------------------------------------------
+        # BIOGRAPHY
+        # ------------------------------------------------------------
+
+        if(!is.null(talk$bio)){
+
+          cat('<details class="bio-details">\n')
+          cat('<summary>Biography</summary>\n')
+
+          bio_paragraphs <-
+            strsplit(
+              talk$bio,
+              "\n\n"
+            )[[1]]
+
+          for(p in bio_paragraphs){
+
+            cat(
+              sprintf(
+                "<p>%s</p>\n",
+                p
+              )
+            )
+
+          }
+
+          cat('</details>\n')
+
+        }
+
+        cat('</div>\n')
+
+      }
+
+      cat('</details>\n')
+
+    } else {
+
+      # ----------------------------------------------------------------
+      # Sessions WITHOUT talks
+      # Registration / Break / Social / Opening / Closing
+      # ----------------------------------------------------------------
+
+      if(!is.null(session$title)){
+
+        cat(
+          sprintf(
+            '<div class="schedule-title">%s</div>\n',
+            session$title
+          )
+        )
+
+      }
+
+      if(!is.null(session$speaker)){
+
+        cat(
+          sprintf(
+            '<div class="schedule-speaker">%s</div>\n',
+            session$speaker
+          )
+        )
+
+      }
+
+    }
+
+    cat("</div>\n\n")
+
+  }
+
+}
+
+cat(":::\n")
+```

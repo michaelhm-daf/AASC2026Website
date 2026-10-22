@@ -136,8 +136,8 @@ days:
               We illustrate two published examples from the literature, which are case-studies in the e-book; the first involves the construction of a near-optimal p-rep design, and the second, a spatial linear mixed model analysis. We compare the results from the University of Wollongong R packages dwreml-R and odw-R (soon to be released on GitHub) with other software such as CycDesign, speed-R, and DiGGer-R for near-optimal design generation, and asreml-R and Echidna for linear mixed modelling.
 
             bio: |  
-              Mario worked as a biometrician in the Biometrics Unit of the WA Dept of Agriculture (now known as DPIRD) from 1977 to 2019. He was President of the Australasian Region of the International Biometric Society (IBS-AR) 2011-2012. He was a long-time Genstat user and was heavily involved in the Genstat conference, Busselton December 2002, and the IBS-AR meeting held in December 2013 at Mandurah, WA.             
-          - time: "11:15-11:30"
+              Mario worked as a biometrician in the Biometrics Unit of the WA Dept of Agriculture (now known as DPIRD) from 1977 to 2019. He was President of the Australasian Region of the International Biometric Society (IBS-AR) 2011-2012. He was a long-time Genstat and CycDesign user, and was heavily involved in the Genstat conference, Busselton December 2002, and the IBS-AR meetings held in December 2011 at Kiama, NSW, and the first and only IBS-AR meeting held in Western Australia so far (December 2013 at Mandurah).  - time: "11:15-11:30"
+            
             title: "A modified PQL method for genetic analysis of binary variables"
             speaker: "Arthur Gilmour"
 
@@ -799,16 +799,6 @@ days:
             bio: |              
 
           - time: "11:30-11:45"
-            title: "`ggincerta`: An R package for Uncertainty Visualisation with a Layered Grammar of Graphics"
-            speaker: "Maggie Ma"
-
-            abstract: |
-              A key challenge in spatial visualisation is the simultaneous communication of estimated values and their associated uncertainties, as visual channels are occupied by spatial structure, leaving limited capacity to encode additional information. We developed `ggincerta`, an R package that extends the layered grammar of graphics implemented in `ggplot2`, to facilitate the visualisation of uncertainty in spatial data. Through its native integration with `ggplot2`, `ggincerta` enables users to leverage the full flexibility of the grammar of graphics to create complex and customised visualisations through simpler and more consistent workflows in spatial and more general data settings. In addition to reproducing existing uncertainty visualisation techniques, the package introduces new approaches, including the dual map, a visualisation designed to support selective attention between estimated values and their associated uncertainties.
-              We demonstrate the capabilities of `ggincerta` through several case studies, illustrating how the package can be used to create informative and visually effective maps that communicate both estimates and uncertainty, while also highlighting relevant technical details and visual features. By integrating uncertainty visualisation directly into the `ggplot2` ecosystem and expanding the range of available uncertainty displays, `ggincerta` provides a flexible and powerful framework for researchers and practitioners working with spatial and other information-rich data.
-            bio: |  
-              Maggie Ma is a PhD student in Statistics at the Australian National University. Her research focuses on statistical graphics, spatial data visualisation, and the communication of uncertainty. She is currently developing the R package `ggincerta`, which extends the `ggplot2` framework with specialised layers and scales for visualising uncertainty in geospatial data.    
- 
-          - time: "11:45-12:00"
             title: "From Pixels to Phenotypes: Building Statistical Pipelines for Drone-Based Field Experiments"
             speaker: "Colleen Hunt"
 
@@ -819,7 +809,7 @@ days:
 
             bio: |  
             
-          - time: "12:00-12:15"
+          - time: "11:45-12:00"
             title: "Multi-trait multi-environment models enhances prediction and interpretation of grain yield in wheat field trials"
             speaker: "Nick Fradgley"
 
@@ -831,7 +821,7 @@ days:
             bio: |  
               Nick Fradgley is a GRDC-funded Postdoctoral Research Fellow at the University of Sydney. His research focuses on developing and applying quantitative genetics methods in cereal breeding. He completed his PhD at the University of Cambridge (2022) and held a postdoctoral position with CSIRO, Australia (2025).
  
-          - time: "12:15-12:30"
+          - time: "12:00-12:15"
             title: "Validity and interpretability of estimated effects from mixed model based meta-analysis"
             speaker: "Khageswor Giri"
 
@@ -845,7 +835,7 @@ days:
             bio: |              
               Khageswor Giri, Senior Biometrician, brings over 17 years of experience in applied statistics of Agriculture, Fisheries, and Ecology. His work is evidenced by the development and application of rigorous statistical methodologies that inform evidence-based decision-making, contributing to high-impact scientific research.
  
-      - time: "12:30-13:30"
+      - time: "12:15-13:30"
         type: break
         title: "Lunch"
         

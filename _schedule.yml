@@ -52,7 +52,7 @@ days:
         type: keynote
         session_no: "Keynote #1 - Dr. Petra Kuhnert"
         chair: "Angela Anderson"
-        
+
         talks:
 
           - title: "Irresponsible use of AI is a Crime Scene: sifting through the slop to deliver responsible AI solutions"
@@ -60,13 +60,13 @@ days:
 
             abstract: |
               Artificial Intelligence (AI) is moving at a rapid pace, shaping decisions across sectors and communities. As a result, the number of paper submissions to leading AI venues has surged. For example, in 2025, a little over 71,000 papers were submitted to the main research track of five of the top machine learning conferences, representing a 32% increase since 24 and a 10-fold increase from ten years ago. This rise in volume is becoming increasingly difficult to manage and consume in the academic community. Alongside genuine advances, there is also work that is incremental, overly tuned to curated benchmarks, weakly evidenced or even AI-generated without adequate verification.
-         
+
               If we want AI research and deployed systems that are trusted, robust and transparent, we need a forensic lens on how AI and its underlying analytics are developed and evaluated. For me, Statistics provides that lens, yet it can be sidelined in the rush to publish AI and deploy.
 
               In this talk, I use the metaphor of a crime scene to describe *AI crime*: errors in predictions, uncertainty and inference that lead to poor decisions and in high-stakes settings can translate into real-world harm. I outline what Responsible, Application-Driven AI (RAD-AI) looks like in practice, and the statistical checks and incentives that help prevent failure modes and AI crime before it reaches the field. I will illustrate these ideas with work we are developing with stakeholders to produce a trusted AI crop growth model.
 
               We would not cut corners at a crime scene, so why would we allow crime to happen with AI!
-            bio: |  
+            bio: |
               Dr. Petra Kuhnert is a Senior Principal Research Scientist at CSIRO and an expert at the intersection of statistics and machine learning. Her work develops methodology for risk-based decision-making in environmental and agricultural applications where she develops methods that are fit for purpose, relevant to the question at hand, and usable by decision-makers.
 
               Her work, particularly supporting Great Barrier Reef decision-making, has been recognised through awards including 1st Runner Up (APAC Women in AI Innovator of the Year, 2023) and the APAC Women in AI Award for Environment and Biodiversity (2023).
@@ -77,7 +77,7 @@ days:
 
               She has co-authored 100+ journal articles, with 6,000+ citations and a Google Scholar h-index of 30+. Her collaborations span leading government departments, universities and industry.
 
-      - time: "09:50-10:00"        
+      - time: "09:50-10:00"
         type: break
         title: "Short break"
 
@@ -99,7 +99,7 @@ days:
 
               In this talk I will describe a collaborative project between students and staff at the University of Auckland and VSNi Ltd, that allows Genstat to be used in conjunction with R Markdown to provide flexible reproducible research capability to the Genstat user community.
 
-            bio: |   
+            bio: |
               My research focuses on statistical problems in forensic science, particularly the interpretation of DNA, and trace evidence. More broadly, I enjoy developing statistical methods and practical tools motivated by real-world problems.
 
           - time: "10:15-10:30"
@@ -108,7 +108,7 @@ days:
 
             abstract: |
               Genstat is a statistical software package designed for data analysis, particularly in bioscience research and its applications. While many users are familiar with its user-friendly interface, it also provides a powerful scripting language for advanced statistical computing.
-            bio: |  
+            bio: |
               Vanessa is an applied statistician, statistical consultant, and Genstat developer at VSNi Ltd. She supports research in agriculture, animal science, horticulture, and related biosciences. Her interests include experimental design, mixed models, multivariate methods, sampling strategies, and data visualisation.
 
       - time: "10:30-11:00"
@@ -127,26 +127,27 @@ days:
             speaker: "Mario D'Antuono"
 
             abstract: |
-              In 2008, at the Australasian Genstat Users Association (AGUA) meeting, then known as the Genstat Conference in Marysville, Victoria, I presented a controversial paper on my forthcoming e-book entitled "Biometry: The 5Rs". 
+              In 2008, at the Australasian Genstat Users Association (AGUA) meeting, then known as the Genstat Conference in Marysville, Victoria, I presented a controversial paper on my forthcoming e-book entitled "Biometry: The 5Rs".
 
-              The paper was controversial because it presented an argument that in 5 simple lines of code using the R Statistical System (denoted by R) usually in the form of a function call, I could address a task such as the generation of a near-optimal design, or a statistical analysis. These 5 lines can be recursive and hence can call other functions within a function (a nested approach). The approach was stimulated by the work of Karl Broman at the time and his 3Rs (Reproducible Research with R). 
- 
+              The paper was controversial because it presented an argument that in 5 simple lines of code using the R Statistical System (denoted by R) usually in the form of a function call, I could address a task such as the generation of a near-optimal design, or a statistical analysis. These 5 lines can be recursive and hence can call other functions within a function (a nested approach). The approach was stimulated by the work of Karl Broman at the time and his 3Rs (Reproducible Research with R).
+
               In 2019, I retired from the Department of Agriculture, Western Australia.  It has taken 7 years for me to find the time and the energy to complete the e-book. The free R software to handle the above has developed to be able to treat many of the common problems in agricultural research.
 
               We illustrate two published examples from the literature, which are case-studies in the e-book; the first involves the construction of a near-optimal p-rep design, and the second, a spatial linear mixed model analysis. We compare the results from the University of Wollongong R packages dwreml-R and odw-R (soon to be released on GitHub) with other software such as CycDesign, speed-R, and DiGGer-R for near-optimal design generation, and asreml-R and Echidna for linear mixed modelling.
 
-            bio: |  
-              Mario worked as a biometrician in the Biometrics Unit of the WA Dept of Agriculture (now known as DPIRD) from 1977 to 2019. He was President of the Australasian Region of the International Biometric Society (IBS-AR) 2011-2012. He was a long-time Genstat and CycDesign user, and was heavily involved in the Genstat conference, Busselton December 2002, and the IBS-AR meetings held in December 2011 at Kiama, NSW, and the first and only IBS-AR meeting held in Western Australia so far (December 2013 at Mandurah).  - time: "11:15-11:30"
-            
+            bio: |
+              Mario worked as a biometrician in the Biometrics Unit of the WA Dept of Agriculture (now known as DPIRD) from 1977 to 2019. He was President of the Australasian Region of the International Biometric Society (IBS-AR) 2011-2012. He was a long-time Genstat and CycDesign user, and was heavily involved in the Genstat conference, Busselton December 2002, and the IBS-AR meetings held in December 2011 at Kiama, NSW, and the first and only IBS-AR meeting held in Western Australia so far (December 2013 at Mandurah).  
+          
+          - time: "11:15-11:30"
             title: "A modified PQL method for genetic analysis of binary variables"
             speaker: "Arthur Gilmour"
 
             abstract: |
               In plant and animal breeding, there is the need to estimate breeding values for binary traits such as lamb survival and presence/absence of disease. For such traits, the average incidence is often outside [0.2, 0.8] and it varies with known fixed effects and covariates.  Animal breeders commonly assume the binary trait is based on an underlying normal liability exceeding a threshold. PQL (pseudo quasi-likelihood), an extension of GLM to include random effects in the linear model, is commonly used to analyse such data and predict breeding values, but is known to underestimate the heritability when fitting an animal model.  It iterates using a working variable $\mathbf{w} = \mathbf{\eta} + (\mathbf{y}-\mathbf{\mu})/\delta$, where  $\mathbf{\eta}$  is the prediction on the liability scale ($\mathbf{X\beta}+\mathbf{Zu}$), $\mathbf{y}$ is binary outcome, $\mathbf{\mu} = f(\mathbf{\eta})$ is predicted mean on the probability scale, $\delta$ is the derivative of the probit link function $f(\eta)$, $\mathbf{X}$ is the design matrix for fixed effects ($\mathbf{\beta}$) and $\mathbf{Z}$ is the design matrix for random effects ($\mathbf{u}$). The linear model,$\mathbf{w} = \mathbf{X\beta} + \mathbf{Zu} + \mathbf{e}$ is fitted with weights $δ^2/$var($y$), var($y$) is $\mu(1-\mu)$.
-              The mPQL model, in the simplest case, calculates $\mathbf{\eta} = \mathbf{X}\mathbf{\beta}$, leading to changes in $\mu$ and $\delta$, and necessitates estimating a dispersion factor when fitting the linear model (which is unchanged).  My recommendation when using mPQL is first to fit the model on the probability scale, note the mean ($p$), calculate the heritability ($h_o^2$), the dispersion factor $((1 - h_o^2)$ and predict an approximate heritability for the liability scale using $h_l^2 = h_o^2 p(1-p)/z^2$. Then, fit the mPQL model using the dispersion factor. 
+              The mPQL model, in the simplest case, calculates $\mathbf{\eta} = \mathbf{X}\mathbf{\beta}$, leading to changes in $\mu$ and $\delta$, and necessitates estimating a dispersion factor when fitting the linear model (which is unchanged).  My recommendation when using mPQL is first to fit the model on the probability scale, note the mean ($p$), calculate the heritability ($h_o^2$), the dispersion factor $((1 - h_o^2)$ and predict an approximate heritability for the liability scale using $h_l^2 = h_o^2 p(1-p)/z^2$. Then, fit the mPQL model using the dispersion factor.
               mPQL is available in Echidna (EchidnaMMS.org)
 
-            bio: |              
+            bio: |
               Arthur Gilmour worked for NSW Agriculture as a biometrician from 1970 to 2008. He is currently contracted part time to VSN International to support ASReml.
 
           - time: "11:30-11:45"
@@ -156,9 +157,9 @@ days:
             abstract: |
               A key challenge in spatial visualisation is the simultaneous communication of estimated values and their associated uncertainties, as visual channels are occupied by spatial structure, leaving limited capacity to encode additional information. We developed `ggincerta`, an R package that extends the layered grammar of graphics implemented in `ggplot2`, to facilitate the visualisation of uncertainty in spatial data. Through its native integration with `ggplot2`, `ggincerta` enables users to leverage the full flexibility of the grammar of graphics to create complex and customised visualisations through simpler and more consistent workflows in spatial and more general data settings. In addition to reproducing existing uncertainty visualisation techniques, the package introduces new approaches, including the dual map, a visualisation designed to support selective attention between estimated values and their associated uncertainties.
               We demonstrate the capabilities of `ggincerta` through several case studies, illustrating how the package can be used to create informative and visually effective maps that communicate both estimates and uncertainty, while also highlighting relevant technical details and visual features. By integrating uncertainty visualisation directly into the `ggplot2` ecosystem and expanding the range of available uncertainty displays, `ggincerta` provides a flexible and powerful framework for researchers and practitioners working with spatial and other information-rich data.
-            bio: |  
+            bio: |
               Maggie Ma is a PhD student in Statistics at the Australian National University. Her research focuses on statistical graphics, spatial data visualisation, and the communication of uncertainty. She is currently developing the R package `ggincerta`, which extends the `ggplot2` framework with specialised layers and scales for visualising uncertainty in geospatial data.
-            
+
           - time: "11:45-12:00"
             title: "torch-openreml: a PyTorch-based framework for flexible linear mixed-effects modelling"
             speaker: "Patrick Li"
@@ -168,30 +169,30 @@ days:
 
               Within this framework, model parameters can be fixed, estimated, or transformed, with analytical gradients provided where possible and PyTorch automatic differentiation used for general cases. The AI-REML solver exploits common covariance structures to improve computational efficiency and benefits from PyTorch support for CPUs, GPUs, and other accelerators.
 
-              Although currently in an early alpha stage, torch-openreml supports a wide range of linear mixed-effects modelling applications, such as multi-environment trial analysis, spatial modelling, and genomic prediction. It enables rapid prototyping of novel covariance models without requiring manual gradient derivation, providing an extensible platform for modern mixed-effects modelling.            
-            bio: |  
-              Dr Weihao (Patrick) Li is a Postdoctoral Research Fellow at the Research School of Finance, Actuarial Studies and Statistics, Australian National University. He holds a PhD in Statistics from Monash University. His research in the Analytics for the Australian Grains Industry (AAGI) project focuses on machine learning, image analytics, and plant phenotyping.           
-  
+              Although currently in an early alpha stage, torch-openreml supports a wide range of linear mixed-effects modelling applications, such as multi-environment trial analysis, spatial modelling, and genomic prediction. It enables rapid prototyping of novel covariance models without requiring manual gradient derivation, providing an extensible platform for modern mixed-effects modelling.
+            bio: |
+              Dr Weihao (Patrick) Li is a Postdoctoral Research Fellow at the Research School of Finance, Actuarial Studies and Statistics, Australian National University. He holds a PhD in Statistics from Monash University. His research in the Analytics for the Australian Grains Industry (AAGI) project focuses on machine learning, image analytics, and plant phenotyping.
+
           - time: "12:00-12:15"
             title: "One Workflow, Many Questions: A Unified Workflow for Statistical Modelling in the Age of AI"
             speaker: "Kathrin Schemann"
 
             abstract: |
-              Applied statisticians increasingly work across diverse modelling paradigms, each with distinct assumptions, methods, and reporting requirements. At the same time, the rapid emergence of AI tools creates opportunities to improve efficiency while raising important questions about transparency, reproducibility, and statistical rigor. 
+              Applied statisticians increasingly work across diverse modelling paradigms, each with distinct assumptions, methods, and reporting requirements. At the same time, the rapid emergence of AI tools creates opportunities to improve efficiency while raising important questions about transparency, reproducibility, and statistical rigor.
 
-              This presentation introduces a practical, software-agnostic workflow developed at the Statistical Consulting Unit of the Sydney Informatics Hub, The University of Sydney. The workflow provides a unified framework for addressing descriptive, predictive, and causal modelling objectives while maintaining focus on fundamental statistical principles and research context. The framework follows a shared structure that begins with clearly defining the research question, identifying variables of interest, documenting assumptions, and developing a transparent analysis plan. Key components include study design, bias assessment, variable selection, interaction assessment, model evaluation, interpretation, and communication of results. The presentation also examines how AI can be integrated throughout the analytical process, supporting tasks such as planning, coding, documentation, model implementation, diagnostic review, and reporting. Within the workflow, AI is positioned as a tool to augment—not replace—statistical expertise, subject-matter knowledge, and professional judgment.  
+              This presentation introduces a practical, software-agnostic workflow developed at the Statistical Consulting Unit of the Sydney Informatics Hub, The University of Sydney. The workflow provides a unified framework for addressing descriptive, predictive, and causal modelling objectives while maintaining focus on fundamental statistical principles and research context. The framework follows a shared structure that begins with clearly defining the research question, identifying variables of interest, documenting assumptions, and developing a transparent analysis plan. Key components include study design, bias assessment, variable selection, interaction assessment, model evaluation, interpretation, and communication of results. The presentation also examines how AI can be integrated throughout the analytical process, supporting tasks such as planning, coding, documentation, model implementation, diagnostic review, and reporting. Within the workflow, AI is positioned as a tool to augment—not replace—statistical expertise, subject-matter knowledge, and professional judgment.
 
-              By combining established statistical principles with structured opportunities for AI augmentation, the workflow provides a consistent approach to applied statistical practice across modelling objectives, supporting more transparent, reproducible, efficient, and impactful research.             
-            bio: |  
+              By combining established statistical principles with structured opportunities for AI augmentation, the workflow provides a consistent approach to applied statistical practice across modelling objectives, supporting more transparent, reproducible, efficient, and impactful research.
+            bio: |
               Kathrin is a Senior Statistical Consultant and leads the operations of the Statistical Consulting Unit at the Sydney Informatics Hub (University of Sydney). With 15+ years of broad, applied experience in academia and public health, she develops practical workflows to empower researchers with robust statistical skills, particularly in optimising analytical design for higher impact research.
-            
+
           - time: "12:15-12:30"
             title: "Nested-factorial treatment models: types, their uses and examples"
             speaker: "Chris Brien"
 
             abstract: |
-              Most commonly factorial experiments involve several crossed treatment factors and the treatment model includes terms for all possible combinations of the treatment factors. However, treatment models that employ nested treatment factors are beneficial in a number of situations and could be used more often. Applicable situations include those in which (i) treatment factors are intrinsically nested, (ii) treatments involve one or more factors plus a control and (iii) treatments have been systematically allocated and/or are pseudoreplicated. Four basic types of nested factors that start with a single nesting factor are  (i) one nested factor, (ii) multiple, crossed, nested factors, (iii) multiple, independent, nested factors, and (iv) a hierarchy of multiple, nested factors. Examples involving the different situations and types of nesting will be presented. Constructing the factors using the `R` package `dae` (Brien, 2026, <https://cran.r-project.org/package=dae>) will be described and the properties of the models discussed for the examples via their anatomies produced using `dae`.              
-            bio: |              
+              Most commonly factorial experiments involve several crossed treatment factors and the treatment model includes terms for all possible combinations of the treatment factors. However, treatment models that employ nested treatment factors are beneficial in a number of situations and could be used more often. Applicable situations include those in which (i) treatment factors are intrinsically nested, (ii) treatments involve one or more factors plus a control and (iii) treatments have been systematically allocated and/or are pseudoreplicated. Four basic types of nested factors that start with a single nesting factor are  (i) one nested factor, (ii) multiple, crossed, nested factors, (iii) multiple, independent, nested factors, and (iv) a hierarchy of multiple, nested factors. Examples involving the different situations and types of nesting will be presented. Constructing the factors using the `R` package `dae` (Brien, 2026, <https://cran.r-project.org/package=dae>) will be described and the properties of the models discussed for the examples via their anatomies produced using `dae`.
+            bio: |
               I am a part-time Senior Biometrician in the Plant Accelerator, at Adelaide University where I consult and carry out statistical research. My main interests are in experiment design and linear mixed model analysis, especially for multiphase experiments. In the last 10 years, the design and analysis of plant phenotyping data has become a particular focus. I also maintain three R packages on CRAN.
       - time: "12:30:13:30"
         type: break
@@ -363,7 +364,7 @@ days:
             bio: |  
               Damian Collins has worked as a biometrician at NSW DPIRD since 1996, based at Menangle (S-W Sydney). His main experience is in mixed models for agricultural data (PhD 2009 UoW, Estimation methods for GLMMs). His other interests include data visualisation, statistical communication, the R statistical software, and Linux (Fedora).           
  
-          - title: "To average or not? Analysis of quadrat-level BOTANAL data in grazing experiments"
+          - title: "Improvements to macadamia crop yield forecasts by incorporating machine learning in model ensembles"
             speaker: "Daniel Powell"  
 
             abstract: |
@@ -376,7 +377,7 @@ days:
             bio: |  
               Daniel Powell is a scientist in the Emerging Technologies business unit of Agri-Science Queensland.  Prior to this position he has spent over 15 years in universities in Australia and Sweden conducting research in agriculture and conservation.           
  
-          - title: "A Statistical Framework for Data Streams"
+          - title: "To average or not? Analysis of quadrat-level BOTANAL data in grazing experiments."
             speaker: "David Reid"  
 
             abstract: |

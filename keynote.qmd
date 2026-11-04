@@ -20,7 +20,7 @@ Bayesian or machine learning approaches: what works best for genomic prediction?
 
 <h3>Abstract</h3>
 
-The foundational paper for genomic prediction, predicting complex traits from genome wide DNA markers, was published in 2001.  Since then, genomic prediction has been widely adopted in crop and livestock production, and in human genetics for prediction of disease risk.  In this overview, statistical methodologies for genomic prediction are compared, and we then speculate on the future of genomic prediction methodologies.     
+The foundational paper for genomic prediction, predicting complex traits from genome wide DNA markers, was published in 2001.  Since then, genomic prediction has been widely adopted in crop and livestock production, and in human genetics for prediction of disease risk. In this overview, statistical methodologies for genomic prediction are compared, and we then speculate on the future of genomic prediction methodologies.     
 
 <h3>Biography</h3>
 

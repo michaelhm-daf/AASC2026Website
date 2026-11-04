@@ -314,18 +314,8 @@ days:
         
         talks:
 
-          - title: "Modelling plant growth for biological discovery"
-            speaker: "Andrew Bowerman"  
-
-            abstract: |
-              High-throughput plant phenotyping platforms, such as those in the Australian Plant Phenomics Network, generate dense, repeated measurements of plant growth over time. Extracting biologically meaningful information from these growth trajectories is not straightforward: mechanistic models require an explicit functional form to be specified in advance, which is often laborious to define and fit separately for each genotype or treatment, particularly when growth is irregular or environmentally responsive.
-              We explore statistical approaches, including Gaussian processes and spline-based models, as a flexible alternative for characterising growth trajectories from phenomics data, without requiring a pre-specified functional form. These methods can accommodate nonlinear and irregular growth patterns directly from the data, while still yielding interpretable summaries such as growth rate, timing of key developmental transitions, and genotype- or treatment-level variation. Gaussian processes further provide a natural measure of uncertainty around these estimates, which is valuable when growth trajectories are noisy or unevenly sampled.
-              We present this as a complementary approach to mechanistic modelling, rather than a replacement for it. Statistical characterisation of growth trajectories can help identify patterns that are worth investigating mechanistically, flagging where and when a genotype or treatment departs from expected growth, for example. Because these methods do not require a model to be fitted individually to each genotype or treatment, they are also well suited to the scale of modern phenomics platforms. In this way, statistical modelling offers a practical route to turning large-scale phenotypic data into biological insight.          
-            bio: |
-              Dr Andrew Bowerman is a quantitative biologist at ANU, working at the interface of plant physiology and statistics. His research spans chloroplast retrograde signalling, wheat field trial analysis, and mixed-model approaches to complex phenotypic data. Drawing on a background in both molecular biology and wheat physiology, he translates quantitative models into biologically meaningful discovery.          
-  
           - title: "A Statistical Framework for Data Streams"
-            speaker: "Bao Khue Tran"  
+            speaker: "Bao Khue Tran (1)"  
 
             abstract: |
               Data streams are potentially unbounded sequences of observations that must be processed incrementally under strict memory and time constraints. Despite their ubiquity, streaming data currently lack a coherent statistical foundation as most existing work is computer science-focused. This raises fundamental questions: How should a data stream be represented as a statistical object? Which classical properties carry over to the streaming setting, and which require reformulation? How can competing methods for the same inferential target be compared?
@@ -333,8 +323,9 @@ days:
               We propose a rigorous and comprehensive framework for evaluating streaming methods. Using a running example examined at increasing levels of complexity, we show how each layer of our framework addresses gaps in existing approaches, and what is required to perform rigorous statistical inference on data streams.            
             bio: |  
               Bao Khue Tran is a PhD candidate in the School of Mathematics and Statistics at UNSW Sydney, supervised by Pierre Lafaye De Micheaux and Gery Geenens. Her research develops rigorous statistical frameworks for streaming data analysis, and she is keen to connect on real-world streaming applications. She also teaches statistics at UNSW, from first-year to master's level.           
+ 
           - title: "Quantifying Spatial Variation in Injury-Related Bloodstream Infections across Queensland"
-            speaker: "Binuri Perera"  
+            speaker: "Binuri Perera (2)"  
 
             abstract: |
               Bloodstream infection (BSI) is a serious complication among injured patients. Although injury- related BSI are known to vary across broader remoteness categories in Queensland, the local variations within small areas are yet unknown. This study aimed to examine the disparities in residential location among people with injury-related BSIs in Queensland using population-based linked data. 
@@ -348,7 +339,7 @@ days:
               Binuri Perera is a Biostatistician and Spatial Epidemiologist at Queensland University of Technology, investigating injury-related bloodstream infections using linked population health data. Her research applies spatial, spatio-temporal and survival analyses to examine geographic inequities in incidence and outcomes.          
  
           - title: "Efficient feature detection in spiky data using penalised effects in a linear mixed model"
-            speaker: "Clayton Forknall"  
+            speaker: "Clayton Forknall (3)"  
 
             abstract: |
               Analysing spiky data, where spiky refers to a response variable that demonstrates severe variation in magnitude in response to one or more explanatory variables, requires care, with challenges arising both in terms of feature detection and model assumptions. We propose a linear mixed model (LMM) based approach for the analysis of spiky data arising from designed experiments. The approach utilises penalties, applied both to the random effects of interest, along with the residual errors, to i) efficiently detect and estimate important features in the response and ii) allow for more flexible t-distributed errors. The approach is motivated by, and demonstrated using, a dataset arising from a mass spectrometry based proteomics experiment, where our aim is to efficiently detect significant peptides and/or proteins that are present at different stages of the barley malting process. Our approach is easily implementable in most LMM software packages, providing a readily applicable solution to a challenging and complex problem.           
@@ -356,7 +347,7 @@ days:
               Clayton is a Senior Biometrician with The Plant Accelerator, a Node of the Australian Plant Phenomics Network, at Adelaide University. He is also currently working to complete his PhD part time at The University of Queensland. Clayton enjoys the challenge of being an applied statistician, working with researchers to solve complex problems facing the agricultural industry.       
             
           - title: "Improved assessment of rangeland management"
-            speaker: "Damian Collins"  
+            speaker: "Damian Collins (4)"  
 
             abstract: |
               Rangelands suitable for pastoral land use cover 50% of the earth’s terrestrial surface. Managing rangelands to reduce or avoid degradation is crucial for food production and ecological sustainability. In recent decades, the use of remote sensing has automated the monitoring of land condition, in particular ground cover, at higher spatial resolution, greater frequency, and lower cost than field surveys. Easier monitoring also allows improved assessment of changes in rangeland management. Assessing these impacts is complicated by climatic drivers of plant growth, especially rainfall and temperature. Methods to discriminate the effects of management on ground cover from climatic effects include regional comparison benchmarking (e.g. Donohue et al. (2022)), reference benchmarking (e.g. Bastin et al. (2012)) or predicted benchmarking approaches such as RESTREND (Evans & Geerken (2004)). Regional comparison and reference benchmarking both compare managed areas to reference areas or pixels. Predicted benchmarking approaches seek to standardise against climatic drivers of growth. This is done independently for each pixel by modelling the time series of ground cover against climatic data time series. To allow for lagged effects of rainfall and temperature, derived climate predictors with various lag and accumulation periods might be derived and the best one(s) selected by comparing $R^2$ values, for instance. After accounting for climatic effects on ground cover, any remaining trends are interpreted as resulting from land management.
@@ -365,7 +356,7 @@ days:
               Damian Collins has worked as a biometrician at NSW DPIRD since 1996, based at Menangle (S-W Sydney). His main experience is in mixed models for agricultural data (PhD 2009 UoW, Estimation methods for GLMMs). His other interests include data visualisation, statistical communication, the R statistical software, and Linux (Fedora).           
  
           - title: "Improvements to macadamia crop yield forecasts by incorporating machine learning in model ensembles"
-            speaker: "Daniel Powell"  
+            speaker: "Daniel Powell (5)"  
 
             abstract: |
               Crop yield forecasting forms an important component of strategic decision-making for the Australian macadamia industry. With growing pressures from challenging economic conditions, reliable forecasts assist in scheduling, logistics planning, and maintaining market confidence and price stability. 
@@ -378,7 +369,7 @@ days:
               Daniel Powell is a scientist in the Emerging Technologies business unit of Agri-Science Queensland.  Prior to this position he has spent over 15 years in universities in Australia and Sweden conducting research in agriculture and conservation.           
  
           - title: "To average or not? Analysis of quadrat-level BOTANAL data in grazing experiments."
-            speaker: "David Reid"  
+            speaker: "David Reid (6)"  
 
             abstract: |
               This study was motivated by the analysis of data collected from central Queensland properties as part of the Queensland Pasture Resilience Program, a partnership between the Department of Primary Industries, Meat & Livestock Australia (MLA) and the Australian Government through the MLA Donor Company. Pasture yield and composition were assessed using the BOTANAL pasture method (Tothill et al., 1978), which involves visually rating quadrats (typically 30–200 per plot), and calibrating these ratings with an equation derived from a set of ratings and corresponding cut quadrat weights to estimate dry matter yield (kg/ha).
@@ -392,7 +383,7 @@ days:
               David Reid is a Principal Biometrician in the Animal Science business unit of Agri-Science Queensland with almost 40 years’ experience as a consulting biometrician, providing statistical direction and leadership for project teams across various agricultural industries. He has expertise in statistical design, analysis, interpretation and reporting.           
  
           - title: "Bayesian Variable Selection in Quantile Regression to Assess Joint Impacts of Climate Indices on Monthly Rainfall"
-            speaker: "Dilani Kaveendri Dambure Hewage"  
+            speaker: "Dilani Kaveendri Dambure Hewage (7)"  
 
             abstract: |
               Understanding how large-scale climate indices influence rainfall variability is important for assessing drought and flood risk in eastern Australia. This study examines the dependency between the joint impact of the Southern Oscillation Index (SOI), Dipole Mode Index (DMI), and monthly rainfall quantiles in New South Wales (NSW), Australia, with particular emphasis on the tails of the monthly rainfall distribution. To address this, we employ a hierarchical model that incorporates Bayesian variable selection within a spatial quantile regression framework, allowing for the integration of two climate indices and spatial variation in their impacts on different parts of the monthly rainfall distribution. The first level of hierarchy expresses the asymmetric Laplace distribution as a location-scale mixture. The second level expresses the prior of the regression coefficients as a two-component mixture, with components being a point mass at zero and a normal distribution. The third level incorporates spatial dependence by modelling the joint inclusion probabilities of SOI and DMI using multinomial logistic regression, where the argument of the link function varies spatially according to a Gaussian Process prior. The results show that SOI is the dominant driver of monthly rainfall variability across NSW, with strong impacts in winter and spring and a notable impact across all quantiles in November. DMI has an important influence during spring, particularly September and October, across multiple quantiles. The lower and upper quantiles show greater sensitivity to SOI and DMI than the median in selected months and locations. DMI also shows an apparent influence at lower quantiles in January and March, suggesting an effect on drier conditions. These results demonstrate the importance of assessing the joint impact of climate indices across the monthly rainfall distribution, providing more complete inference than mean-based or single-index analyses.            
@@ -400,7 +391,7 @@ days:
               Dr Dilani Kaveendri is a Lecturer at Canterbury Institute of Management, Sydney, and a recent PhD graduate from the University of Sydney. Her research focuses on Bayesian statistics, variable selection, quantile regression, spatial modelling, climate applications, and applied data science.          
   
           - title: "`heritable`: An `R` package for flexible heritability estimation from complex linear mixed models"
-            speaker: "Emi Tanaka"  
+            speaker: "Emi Tanaka (8)"  
 
             abstract: |
               Heritability is ubiquitous in quantitative genetics, yet its estimation and interpretation in more complex experimental settings like multi-environment trials remain challenging. We present `heritable`, an R package that implements multiple generalised heritability estimators within a unified framework. Our package supports five methods (Cullis, Delta, Oakey, Piepho, Standard) for computing broad-sense and narrow-sense heritabilities directly from model objects from commonly used mixed-modelling software, including `lme4` and `asreml`. By fitting a single genotype-by-environment model, users can flexibly obtain heritability estimates for the main genotypic effect, the marginal genotypic effect across environments, or stratified genotypic effects within user-defined environmental strata. Our package also provides confidence intervals, visual and tabular summaries to aid interpretation and reporting. Using a simulation study spanning a range of realistic experimental scenarios, we further offer practical recommendations on the choice of heritability measure under varying design complexities. Taken together, this work aims to improve the use, reproducibility, and interpretability of heritability in more biologically realistic settings.             
@@ -408,7 +399,7 @@ days:
               Dr. Emi Tanaka is an academic statistician at the Australian National University (ANU) with a passion for data science and open-source software. She serves as Editor-in-Chief of the R Journal, leads the ANU team for the Analytics for the Australian Grains Industry Project, and is an Elected Member of the International Statistical Institute.           
   
           - title: "Kernel Propagation of Gradient Boosted Margins for Spatio-temporal Forecasting"
-            speaker: "Ethan Kane Waters"  
+            speaker: "Ethan Kane Waters (9)"  
 
             abstract: |
               Gradient boosted trees are widely used due to their flexibility, minimal parametric assumptions and ability to learn complex relationships. However, they assume observational independence, potentially overlooking informative spatio-temporal structures. Existing modelling approaches that can explicitly consider spatio-temporal autocorrelation are often computationally intensive, rely on restrictive parametric assumptions or suffer when predictors are collinear. We propose a post-hoc method that augments gradient boosted tree predictions by using a kernel to propagate raw margins to nearby future observations. Margins are updated as a weighted combination of the original margin and a normalised kernel-weighted average of non-negative neighbouring margins which is controlled by a mixing parameter. This yields estimates independent of neighbourhood density that are bounded by the original prediction and the local neighbourhood. The method does not modify model training and is compatible with any gradient boosting implementation that exposes raw margins. Empirical results from the motivating biosecurity forecasting task of invasive species presence demonstrate consistent improvements in predictive performance over standard gradient boosting models.            
@@ -416,7 +407,7 @@ days:
               Ethan Waters is a Data Scientist at the Department of Primary Industries, where he develops machine learning algorithms and statistical models to support data-driven decision-making in agriculture. Concurrently, Ethan is a full-time PhD student at QUT under the supervision of D/Prof Kerrie Mengersen, Prof Kate Helmstedt, Dr Ky Mathews, and Dr Mahdi Abolghasemi. 
             
           - title: "A Bayesian spatio-temporal nearest neighbor Gaussian process model for pooled genetic data"
-            speaker: "Imke Botha"  
+            speaker: "Imke Botha (10)"  
 
             abstract: |
               Large scale genetic datasets often aggregate the total allele counts of distinct genetic markers. Inferring haplotype frequencies (i.e. the frequency of multimarker alleles) from these pooled data is a challenge. Previous spatio-temporal modeling in this context has been limited to 3 markers due to the computational cost. In this work, we propose a nearest neighbor Gaussian process (NNGP) model to improve scaling with the number of markers and observations. To infer the parameters of our model, we develop a novel sequential Monte Carlo squared algorithm, which uses particle Gibbs with ancestor sampling to mutate the NNGP function values. The latter has a linear cost in the number of observations and the number of NNGPs, and can be applied to a broad range of NNGP models. As a case study, we analyze genetic data relating to antimalarial drug resistance in Africa, and show our scaling results empirically on a 3 and 6 genetic marker dataset.            
@@ -424,38 +415,36 @@ days:
               Dr Imke Botha is a Research Fellow in the School of Mathematics and Statistics at the University of Melbourne. Her background is in computational Bayesian statistics, and she is currently working on modelling and predicting the spread of antimalarial drug resistance in Asia. Her other research interests include sequential Monte Carlo, pseudo-marginal methods, and ensemble Kalman inversion methods.         
  
           - title: "Bespoke workshops to empower Agricultural Research Scientists to perform their own routine statistics"
-            speaker: "Kerry Bell"  
+            speaker: "Kerry Bell (11)"  
 
             abstract: |
               The demand for statistical collaboration in agricultural research projects in the grains industry conducted within Queensland’s Department of Primary Industries (DPI) exceeds the capacity of the biometricians. Empowering researchers to perform routine statistical tasks offers a dual benefit: maintaining the quality of statistical practices in projects while enabling biometricians to focus on advanced methodologies, innovative statistical approaches, and strategic upskilling initiatives.
               Although the DPI biometry group has implemented various upskilling activities, these have not consistently translated into meaningful practice changes within research projects. To address this, tailored workshops designed around specific project groups have been trialled to bridge the gap between statistical training and practical application. Participants collaborate with biometricians to define learning objectives, explore statistical concepts using their own project data, and develop actionable plans to integrate these learnings into their research workflows.
               Preliminary feedback from participants indicates that these workshops have improved their confidence in data management and the use of statistics, leading to increased robustness in research outcomes. Additionally, the workshops have facilitated stronger collaboration between researchers and biometricians, creating a foundation for ongoing knowledge exchange and capacity building.
               This poster will provide an overview of the workshop design process, including the identification of key learning objectives, the integration of project-specific data, and the strategies employed to encourage practice change. The findings highlight the potential of tailored training initiatives to address capacity challenges and ensure the sustainability of high-quality statistical practices in agricultural research.
-           
             bio: |  
               Kerry Bell is a Principal Biometrician at Queensland’s Department of Primary Industries in Toowoomba, where she leads the Applied Statistics group. With over 30 years’ experience in design, data management, analysis and reporting, she supports research in the grains and cotton industries and specialises in upskilling researchers in statistics using adult learning principles and facilitation tools.            
 
-          - title: "Fusarium What? A method to identify mungbean lines and parents resistant and tolerant to Fusarium wilt"
-            speaker: "Lucas Peitton"  
-
-            abstract: |
-              Fusarium wilt in mungbean is caused by fungi within the Fusarium oxysporum and F. solani species complexes and heavily affects grain production in Australia. The need for lines  with high yield potential that can either retain yield in the presence of disease or tolerate the effects of the pathogen is imperative. Current selection methods involve the study of disease incidence and grain yield separately, which may result in not using all the available information and thus lead to inefficient selection decisions. 
-              A statistical model is presented where geneotypic resistance and tolerance measures are simultaneously derived from a multivariate linear mixed model analysis on grain yield and disease incidence for Mungbean under normal (uninoculated) circumstances and disease pressure (inoculated). The method incorporates genetic relatedness via pedigree  information and is implemented in the ASReml-R package. A visual tool will be highlighted that identifies lines with higher yield potential, yield retention under disease pressure and tolerance to disease in the evaluated environment simultaneously. 
-              It has been demonstrated that resistance and tolerance proxies obtained from the genetic effects are independent of grain yield potential and disease incidence, allowing for more efficient selection decisions. As the genetic effects can be partitioned into additive and non-additive components, not only can improved lines be detected, but it is also possible to select potential parents for future crosses. These results are key in developing lines with better performance under disease pressure to ensure yield production for growers with or without the presence of the pathogen. 
-          
-            bio: |  
-              Lucas Peitton is a biometrician that works for the Queensland Department of Primary Industries through the Analytics for the Australian Grain Industry iniative funded by the Grains Research & Development Corporation. He has a Bachelor of Science with Major in Statistics from the National University of Rosario, Argentina. His interests are mainly related to quantitative genetics and R coding.            
- 
           - title: "Estimating volcanic eruption recurrence rates using hierarchical trend renewal processes"
-            speaker: "Mark Bebbington"  
+            speaker: "Mark Bebbington (12)"
 
             abstract: |
               Long-term (during quiescence) forecasts of volcanic eruptions are vital in estimating risk for land-use planning, but are challenging due to the typically sparse and incomplete data available in geological and/or historical eruption records. The typical solutions is to include in the analysis volcanoes with comparable physical properties and statistical behaviour (whatever these mean) to a target volcano. Analogue volcano recurrence patterns are thus used to estimate model parameters and forecast future eruptions. This approach often fails to consider the specific problem of “missing data”, which is common due to the uncertain and possibly unknowable processes in geologic records over thousands to tens of thousands of years. At a finer level, volcanoes can exhibit waxing, waning or cyclic activity in the rate of eruption onsets. This latter variability can be modelled using the trend renewal process using combinations of power, exponential and sine functions. On 14 example volcanoes, cases of constant activity level, increasing trend, wax and wane of activity, and cyclic plus trend behaviours are all observed. We propose using a set of hierarchical trend renewal processes to model analogue volcanoes and account for missing data. From these we create a Bayesian model averaging scheme for forecasting which incorporates model uncertainty by combining the posterior distribution of the forecast times from each of the considered models. We apply this method to forecasting eruptions from Mt Taranaki in New Zealand, which last erupted in ∼1780 AD and has its entire eruption record preserved only in geological deposits.         
             bio: |  
               Mark Bebbington has a BSc (geophysics) and an MSc (probability) from VUW, and a PhD (applied probability) from Cambridge. After a post-doc at Queensland he took up a lectureship in statistics at Massey, and is now Professor in Geostatistics. Originally a statistical seismologist, Mark gravitated to volcanology and has focussed on developing new probabilistic techniques for eruption forecasting.           
  
+          - title: "Modelling plant growth for biological discovery"
+            speaker: "Andrew Bowerman (13)"  
+
+            abstract: |
+              High-throughput plant phenotyping platforms, such as those in the Australian Plant Phenomics Network, generate dense, repeated measurements of plant growth over time. Extracting biologically meaningful information from these growth trajectories is not straightforward: mechanistic models require an explicit functional form to be specified in advance, which is often laborious to define and fit separately for each genotype or treatment, particularly when growth is irregular or environmentally responsive.
+              We explore statistical approaches, including Gaussian processes and spline-based models, as a flexible alternative for characterising growth trajectories from phenomics data, without requiring a pre-specified functional form. These methods can accommodate nonlinear and irregular growth patterns directly from the data, while still yielding interpretable summaries such as growth rate, timing of key developmental transitions, and genotype- or treatment-level variation. Gaussian processes further provide a natural measure of uncertainty around these estimates, which is valuable when growth trajectories are noisy or unevenly sampled.
+              We present this as a complementary approach to mechanistic modelling, rather than a replacement for it. Statistical characterisation of growth trajectories can help identify patterns that are worth investigating mechanistically, flagging where and when a genotype or treatment departs from expected growth, for example. Because these methods do not require a model to be fitted individually to each genotype or treatment, they are also well suited to the scale of modern phenomics platforms. In this way, statistical modelling offers a practical route to turning large-scale phenotypic data into biological insight.          
+            bio: |
+              Dr Andrew Bowerman is a quantitative biologist at ANU, working at the interface of plant physiology and statistics. His research spans chloroplast retrograde signalling, wheat field trial analysis, and mixed-model approaches to complex phenotypic data. Drawing on a background in both molecular biology and wheat physiology, he translates quantitative models into biologically meaningful discovery.          
+  
           - title: "Fast Approximate MM-Estimation for Outlier Robust Model Selection"
-            speaker: "Martin Huang"  
+            speaker: "Martin Huang (14)"  
 
             abstract: |
               Stratified robust model selection reduces the impact of large residuals and overrepresented outliers in bootstrap samples but is computationally intensive when fitting iteratively-solved robust estimators across many candidate models. We propose FAMM, a Fast Approximate MM-estimator, implemented as a weighted least squares fit with weights derived from a full-data MM-estimator, to reduce this computational cost. Substituting the MM-estimator with FAMM preserves model selection performance while achieving a substantial speedup in typical dataset settings. We also demonstrate that FAMM satisfies the required conditions for model selection consistency.         
@@ -463,7 +452,7 @@ days:
               Martin Huang is a third year PhD student at the University of Sydney, supervised by Associate Professor Garth Tarr and Professor Samuel Muller.          
 
           - title: "A forecasting disaster using sparce, scarce, and sporadic data to forecast a (mainly) unobservable nonlinear system"
-            speaker: "Melody Whitehead"  
+            speaker: "Melody Whitehead (15)"  
 
             abstract: |
               Forecasts of complex natural systems are required to inform decisions from emergency management to climate response. Forecasting methods rely on interpreting current knowledge and data and extrapolating the result into the future with causal and temporal assumptions. 
@@ -474,10 +463,10 @@ days:
 
               Here, we use the exemplar of Ruapehu volcano and the Central Volcanic Plateau in Aotearoa - New Zealand, to demonstrate methods with which we have tried and failed with, in the hope that this will inspire fruitful discussions on things that might be less ineffectual.           
             bio: |  
-             Geostatistican with a current focus on data, knowledge, and assumption limitations in natural hazards / volcanological modelling     
+              Geostatistican with a current focus on data, knowledge, and assumption limitations in natural hazards / volcanological modelling     
   
           - title: "`ecreml`: An `R`-package to incorporate environmental covariates into a multi-environment trial analysis"
-            speaker: "Michael Mumford"  
+            speaker: "Michael Mumford (16)"  
 
             abstract: |
               A statistical methodology proposed in Mumford et al. (2023) integrates environmental covariates (ECs) into the multi-environment trial (MET) analysis with the aim of identifying environment drivers of genotype by environment by management practice (G×E×M) interaction effects. The methodology selects important ECs by incorporating them into a linear mixed model (LMM) with complex variance structures using `ASReml-R`.  The selection procedure can be used to enhance the prediction of the performance of treatments and/or genotypes under untested environmental conditions. One difficulty arising from the proposed methodology is that the `R`-code to setup the selection procedure algorithm in conjunction with fitting the LMM is complicated, potentially creating a barrier to applying the methodology to other datasets.
@@ -490,7 +479,7 @@ days:
               Michael is currently employed as a biometrician at the Queensland Department of Primary Industries in Toowoomba, Australia. Michael works across numerous crop science projects, focusing on the design and analysis of agricultural experiments. Michael is also completing PhD studies part-time, researching improved statistical methodologies for the analysis of comparative scientific experiments.         
   
           - title: "Unconditioning Fisher’s Exact Test"
-            speaker: "Mst Bithi Akter"  
+            speaker: "Mst Bithi Akter (17)"  
 
             abstract: |
               The Analysis of 2 × 2 contingency tables remain one of the oldest problems in statistics, and it is still very much with us today. Fisher’s exact test is popular for its reliable type I error control, but it is known to be conservative, with its actual significance level often lower than the intended level. This can cause a noticeable loss of statistical power, especially when sample sizes are small.
@@ -504,7 +493,7 @@ days:
               Mst Bithi Akter is a PhD student in Statistics at the School of Mathematics and Statistics, UNSW Sydney. My research focuses on Statistical Inference, Discrete Copula models, discrete data analysis and model development and statistical methodology for discrete outcomes.          
  
           - title: "Quasi-posteriors for robust adaptive clinical trial design with count outcomes"
-            speaker: "Navodya Abirami Naotunna Gamacharige"  
+            speaker: "Navodya Abirami Naotunna Gamacharige (18)"  
 
             abstract: |
               Modern clinical trials are often designed within a Bayesian framework using trial simulation. This requires specifying assumptions for data generation including a treatment effect and a distribution for the data. Often the performance of the design depends on such assumptions meaning that if they are misspecified, then it could lead to the design performing worse than expected. To address this limitation for clinical trials where count outcomes are observed, we propose to develop designs within a general Bayesian inference framework. This enables replacing the likelihood in standard Bayesian inference with the quasi-likelihood to form a quasi-posterior. This results in inference being largely based on assumptions about the mean and variance model for the data. We propose to leverage such a property to design adaptive trials that are robust across a range of potential data generating models. Such an approach is evaluated through the re-design of a recently conducted clinical trial to assess the performance of citalopram (20 mg and 40 mg) in reducing cocaine use. A range of scenarios are considered including equidispersed, overdispersed, and underdispersed data where we compare our approach to standard practice within trial simulation. The results suggest that a design approach based on the quasi-likelihood instils robustness into the trial design and offers a potential solution to a major limitation in trial design.         
@@ -512,7 +501,7 @@ days:
               Naotunna Gamacharige Navodya Abirami is a PhD candidate in the School of Mathematical Sciences and a member of the Centre for Data Science at Queensland University of Technology, where her research proposes robust methods for designing Bayesian adaptive clinical trials. She holds a BSc Honours in Industrial Statistics from the University of Colombo, Sri Lanka.         
  
           - title: "Fitting Generalised Linear Mixed Models using Sequential Quadratic Programming"
-            speaker: "Peter Green"  
+            speaker: "Peter Green (19)"  
 
             abstract: |
               Finding maximum likelihood estimates in generalised linear mixed models (GLMMs) can be difficult due to the often-intractable integral over the random effects.
@@ -521,9 +510,10 @@ days:
               This talk discusses the implementation of SQP for GLMMs and compares its performance to other common approaches.
            
             bio: |  
-              Peter Green is a research statistician at Tadorna Data Science.       
+              Peter Green is a research statistician at Tadorna Data Science. 
+              
           - title: "A Bayesian predictive density for Type II censored data for a normal distribution"
-            speaker: "Takeshi Kurosawa"  
+            speaker: "Takeshi Kurosawa (20)"  
 
             abstract: |
               We discuss predictive densities for Type II censored data. Type II censoring can be viewed as a problem of order statistics. For example, a fixed number of batteries is prepared, and some of the batteries run out over time. We aim to predict the time until the next battery runs out, which can be formulated as a Type-II censoring problem. We apply this method to failure-time data from aircraft air-conditioning equipment as an illustrative example. We evaluate predictive densities in terms of the risk based on the Kullback-Leibler divergence. We derive a new Bayesian predictive density for unobserved data under censoring. The derived predictive density has the minimax property within a class of scale-invariant families. In this study, we focus on the Type-II censoring problem for order statistics from normal distributions. We show that the predictive density can be expressed as a truncated t-distribution. As a benchmark, we consider the plug-in predictive density, obtained by substituting the maximum likelihood estimates into the unknown parameters of the true distribution. The plug-in predictive density also belongs to the scale-invariant family under the assumed setting. Therefore, we demonstrate that the proposed predictive density is superior to the plug-in predictive density in terms of risk under the Kullback-Leibler divergence, owing to its minimax property. Furthermore, we conduct simulation studies to demonstrate the validity of the proposed predictive density for predicting unobserved data under censoring.          
@@ -531,7 +521,7 @@ days:
               Takeshi Kurosawa (TK) is a member of the Department of Applied Mathematics at Tokyo University of Science in Japan. TK is a professor of mathematical statistics in the department. TK’s research areas are generalized linear models, errors-in-variables models. Gao Xin (GX) was a master’s student and conducted research under TK’s supervision. GX studied Bayesian decision theory while at university.         
 
           - title: "Analysing longitudinal opioid dispensing patterns among injured patients using sequential mixture hidden Markov models"
-            speaker: "Tasmiah Sad Sutopa"  
+            speaker: "Tasmiah Sad Sutopa (21)"  
 
             abstract: |
               Pain management following injury can be complex, and may involve prescription medications, particularly opioids. Prolonged opioid use is known to increase risk of mental and physical harms. Although many studies have explored individual-level factors associated with cross-sectional opioid use, less is known about opioid dispensing states over time. The main aim of this study is to identify and analyse community opioid dispensing patterns among injured patients. The study used a linked dataset comprising hospital admissions, community pharmaceutical opioid dispensing and mortality information for Queensland adults hospitalised due to injury between 2014 to 2015 and dispensed opioids at least once during 2-years of follow-up. We calculated weekly opioid morphine equivalents (OMEs) by aggregating the daily dispensing quantity for seven days. Weekly opioid exposure was categorised into three states: no opioid use, low opioid use (<50 OME), and high opioid use (50+ OME). Sequential Mixture Hidden Markov Models were used to identify groups based on the transition of dispensing states over time. We then applied multinomial logistic regression to explore the association between patient characteristics and group membership. Among 50,152 injured patients, five opioid trajectory groups were identified: Persistent high (3.2%), Persistent low (13.1%), Minimal (39.4%), Intermittent (11.2%), and Persistent no opioid dispensing (33.1%). Compared to patients with no subsequent hospitalisation, those with 5+ encounters had a much higher relative risk (RR: 7.07-13.69) of being in any opioid dispensing group than Persistent no opioid dispensing group. Intensive care unit admission and pre-injury opioid dependence were associated with Persistent high and Intermittent dispensing. Repeated hospitalisation, older age and pre-injury opioid dependence were associated with group membership. The study provides novel evidence on long-term opioid prescription trajectories among injured patients.           
@@ -539,7 +529,7 @@ days:
               Tasmiah Sad Sutopa is a PhD candidate at Queensland University of Technology. Her PhD focuses on using better statistical methods in longitudinal pharmaceutical opioid dispensing among injured patients. She is also a faculty member in Department of Statistics, University of Dhaka, Bangladesh.  She holds Bachelor's and Master's degrees in Statistics, and she has published 8 journal articles.           
  
           - title: "A minimal extension of the Bradley-Terry model for paired comparisons with cyclic dominance"
-            speaker: "Yuki Ohno"  
+            speaker: "Yuki Ohno (22)"  
 
             abstract: |
               Paired comparison data arise in a wide range of fields, such as sports analysis, social choice, and machine learning. The Bradley-Terry model is a well-established mathematical model for estimating latent rankings of items based on such data. It imposes a probabilistic transitivity constraint under which each pairwise preference is required to be consistent with a global ranking, and this constraint contributes to excellent performance in many applications. However, empirical data sometimes exhibit cyclic dominance, resembling dynamics like "rock-paper-scissors", which may violate the transitivity assumption underlying this classical framework. In such cases, analyses based on this framework may lead to misleading inferences. Instead, we seek to quantify the extent of cyclic dominance in order to assess the degree of departure from transitivity. To this end, we propose a minimal extension of the Bradley-Terry model by introducing only a single nonnegative parameter. When this additional parameter is set to zero, the proposed model reduces to the Bradley-Terry model. It also provides a simple and interpretable measure of departure from the Bradley-Terry model in terms of transitivity. The usefulness of the proposed model is demonstrated through the analysis of real data, where it successfully captures cyclic dominance.            
@@ -547,14 +537,25 @@ days:
               Yuki Ohno is a second-year master's student at Tokyo University of Science and plans to pursue a Ph.D. His research interests include categorical data analysis, particularly the analysis of contingency tables with missing data.           
 
           - title: "High-throughput phenotyping models predict wheat yield across current and future climates"
-            speaker: "Zixiong Zhaung"  
+            speaker: "Zixiong Zhaung (23)"  
 
             abstract: |
               Future climate change includes both elevated CO$_2$ and warming, both climate factors could significantly influence photosynthesis and global wheat production, one of the major crops for food security1. However, few studies have addressed the combined effects of elevated CO$_2$ and warming (Ainsworth and Long, 2021). Breeding and selecting wheat that adapt to future climate change requires efficiently evaluating thousands of varieties across both current and future growing conditions. To address challenges at this scale, high-throughput phenotyping technologies offer a novel path to breed better crops for future climates. However, their value for predicting yield under novel climates remains untested. 
               Over two years I grew 86 diverse Australian wheat lines under current and projected end-of-century conditions (800 ppm CO$_2$, +5 °C), phenotyping each with 3D multispectral scanning, digital microscope, hyperspectral leaf-clip reflectance, and a wheat-specific deep-learning model that predicts leaf photosynthetic physiology (Furbank et al. 2021). Over the two years of experiments, future conditions consistently reduced grain yield by 17 ± 2%. This further emphasises the needs to breed wheat varieties better adapted to future climate conditions. 
               From over 140 high-throughput traits ~30 features were selected using elastic net and ablation studies and was able to predict wheat yield with an $R^2$ of 0.62 using recently published in-context learning foundational models4. Additionally, this model could predict the yield of unseen genotypes with no loss of accuracy ($R^2$ = 0.60), which is needed to screen new breeding lines. This result demonstrates that predictive models using scalable, sensor-derived phenotypes mutual across growth environments rather than being environment-specific may be feasible. Additionally, predictive models using phenotyping-based approaches also offer mechanistic insights of adaptation strategies across environments. This further enhances the confidence for breeding and pre-breeding exercises for addressing food security issues driven by climate change.
            
+            bio: |
+            
+          - title: "Fusarium What? A method to identify mungbean lines and parents resistant and tolerant to Fusarium wilt"
+            speaker: "Lucas Peitton (24)"  
+
+            abstract: |
+              Fusarium wilt in mungbean is caused by fungi within the Fusarium oxysporum and F. solani species complexes and heavily affects grain production in Australia. The need for lines  with high yield potential that can either retain yield in the presence of disease or tolerate the effects of the pathogen is imperative. Current selection methods involve the study of disease incidence and grain yield separately, which may result in not using all the available information and thus lead to inefficient selection decisions. 
+              A statistical model is presented where geneotypic resistance and tolerance measures are simultaneously derived from a multivariate linear mixed model analysis on grain yield and disease incidence for Mungbean under normal (uninoculated) circumstances and disease pressure (inoculated). The method incorporates genetic relatedness via pedigree  information and is implemented in the ASReml-R package. A visual tool will be highlighted that identifies lines with higher yield potential, yield retention under disease pressure and tolerance to disease in the evaluated environment simultaneously. 
+              It has been demonstrated that resistance and tolerance proxies obtained from the genetic effects are independent of grain yield potential and disease incidence, allowing for more efficient selection decisions. As the genetic effects can be partitioned into additive and non-additive components, not only can improved lines be detected, but it is also possible to select potential parents for future crosses. These results are key in developing lines with better performance under disease pressure to ensure yield production for growers with or without the presence of the pathogen. 
+          
             bio: |  
+              Lucas Peitton is a biometrician that works for the Queensland Department of Primary Industries through the Analytics for the Australian Grain Industry iniative funded by the Grains Research & Development Corporation. He has a Bachelor of Science with Major in Statistics from the National University of Rosario, Argentina. His interests are mainly related to quantitative genetics and R coding.            
         
   - name: "Wednesday 2 December 2026"
 
@@ -874,7 +875,7 @@ days:
 
         talks:
 
-          - time: "14:30-15:00"
+          - time: "14:30-14:45"
             title: "Harnessing aerial imagery to overcome spatial complexity in yield trials"
             speaker: "Zachary Aldiss"
 
@@ -883,6 +884,15 @@ days:
               Our analysis affirms that HTP integration is a highly scalable strategy for reliability recovery, particularly across diverse breeding programs operating in spatially complex environments where traditional ANOVA-based methods struggle. By applying a standardized secondary trait from UAS imagery, we effectively recovered trial reliability in noisy environments where spatial trends otherwise dominate. Furthermore, the multitrait frameworks allowed for the extraction of biological signals from canopy spectral data, which successfully partitioned residual variation and improved the precision of variety effect estimation. However, our findings demonstrate that the value of HTP is strictly conditional on the baseline reliability of the trial, with diminishing returns observed in environments that already feature high univariate heritability.
             bio: |    
               I am a Postdoctoral Research Associate at the University of Illinois Urbana-Champaign with Dr Jessica Rutkoski.  
+
+          - time: "14:45-15:00"
+            title: "Healing the History:  A Robust Estimation Framework for Addressing Misidentification in POPAN Capture-Recapture Models"
+            speaker: "Adam Wong-Toi"
+
+            abstract: |
+              Following heavy 20th-century commercial whaling, Southern Hemisphere humpback whales have experienced rapid demographic recovery. Historically, monitoring relied on shore-based point censuses, which did not track individual life histories over time (Noad et al., 2020). Modern platforms, like Happywhale, collate fluke images to provide individual photo-identification. While these multi-decade datasets capture expansive longitudinal histories, they raise key analytical challenges. This study evaluates the vulnerability of open-population capture-recapture models (POPAN) to capture heterogeneity and misidentification errors. By applying both standard POPAN and finite-mixture ‘Capmix’ models to a 41-year dataset comprising 15,792 individual capture histories, we estimated contemporary population dynamics. Through simulation, the impact of individual misidentification is robustly quantified. To address this bias, an iterative stochastic reallocation algorithm was developed that uses the joint likelihood to reallocate misidentified “ghost” individuals to statistically plausible capture histories. In simulation, with a 1.5% per-image misidentification rate, the bias in the superpopulation size, N*, was approximately 7.2%, while survival and recruitment metrics remained stable. The iterative reallocation algorithm successfully reduced this abundance bias to 0.05%. Applying the framework to the Happywhale eastern Australian humpback whale data yielded a 2024 population estimate of 63,584 individuals, and an annual population growth rate of 10%, consistent with literature from land-based studies (Noad et al., 2020). This framework successfully corrects for misidentification bias when supplied with an estimated error rate from external matching validation exercises. It provides the necessary correction to citizen science datasets, securing a precise and structurally sound framework for long-term population modelling by healing the history.
+            bio: |    
+              Adam is a postgraduate Honours student in ecological statistics. He specialises in capture-recapture modelling for marine megafauna, including humpback and blue whales. His research focuses on developing robust estimation frameworks to mitigate misidentification bias to improve population abundance estimates.
         
       - time: "15:00-15:30"
         type: break
@@ -896,15 +906,6 @@ days:
         talks:
 
           - time: "15:30-15:45"
-            title: "Healing the History:  A Robust Estimation Framework for Addressing Misidentification in POPAN Capture-Recapture Models"
-            speaker: "Adam Wong-Toi"
-
-            abstract: |
-              Following heavy 20th-century commercial whaling, Southern Hemisphere humpback whales have experienced rapid demographic recovery. Historically, monitoring relied on shore-based point censuses, which did not track individual life histories over time (Noad et al., 2020). Modern platforms, like Happywhale, collate fluke images to provide individual photo-identification. While these multi-decade datasets capture expansive longitudinal histories, they raise key analytical challenges. This study evaluates the vulnerability of open-population capture-recapture models (POPAN) to capture heterogeneity and misidentification errors. By applying both standard POPAN and finite-mixture ‘Capmix’ models to a 41-year dataset comprising 15,792 individual capture histories, we estimated contemporary population dynamics. Through simulation, the impact of individual misidentification is robustly quantified. To address this bias, an iterative stochastic reallocation algorithm was developed that uses the joint likelihood to reallocate misidentified “ghost” individuals to statistically plausible capture histories. In simulation, with a 1.5% per-image misidentification rate, the bias in the superpopulation size, N*, was approximately 7.2%, while survival and recruitment metrics remained stable. The iterative reallocation algorithm successfully reduced this abundance bias to 0.05%. Applying the framework to the Happywhale eastern Australian humpback whale data yielded a 2024 population estimate of 63,584 individuals, and an annual population growth rate of 10%, consistent with literature from land-based studies (Noad et al., 2020). This framework successfully corrects for misidentification bias when supplied with an estimated error rate from external matching validation exercises. It provides the necessary correction to citizen science datasets, securing a precise and structurally sound framework for long-term population modelling by healing the history.
-            bio: |    
-              Adam is a postgraduate Honours student in ecological statistics. He specialises in capture-recapture modelling for marine megafauna, including humpback and blue whales. His research focuses on developing robust estimation frameworks to mitigate misidentification bias to improve population abundance estimates.
- 
-          - time: "15:45-16:00"
             title: "Ensemble modelling and visualising uncertainty in fisheries stock assessments"
             speaker: "Alise Fox"
 
@@ -923,7 +924,7 @@ days:
             bio: | 
               Alise Fox is a stock assessment scientist with Fisheries Queensland, applying statistics, mathematics, ecology and programming to support sustainable fisheries management. Her career spans research, teaching and science communication. Her work has been recognised through Superstars of STEM and a Queensland Women in STEM Prize. She’s passionate about making STEM accessible and inclusive.        
            
-          - time: "16:00-16:15" 
+          - time: "15:45-16:00" 
             title: "Keeping the eastern king prawn stock assessment in line"
             speaker: "Joanne Wortmann"
 
@@ -936,7 +937,7 @@ days:
             bio: |   
               Joanne Wortmann is a stock assessment scientist from Fisheries Queensland. Joanne was a maths lecturer at the University of Kwazulu-Natal in South Africa and before that Joanne was a data scientist for a medical insurance company.        
 
-          - time: "16:15-16:30"
+          - time: "16:00-16:15"
             title: "Integrated Species Distribution Modeling for Fisheries Abundance Data: A Single Index Approach"
             speaker: "Quan Vu"
 

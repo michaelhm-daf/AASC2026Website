@@ -115,36 +115,6 @@ This full-day masterclass will highlight some new additions and hidden features 
 
 <summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
 
-From fishing trips to stock indicators: An introduction to fisheries catch rate standardisation in `R`
-
-</summary>
-
-This interactive half-day workshop will introduce you to the standardisation of fisheries catch rates (CPUE) using `R`. You'll work with a realistic simulated catch-and-effort dataset and step through the key stages and decisions of a CPUE standardisation workflow, including:
-
-- Filtering data
-
-- Considering model structure and covariates
-
-- Fitting simple CPUE linear models, and
-
-- Generating annual predictions
-
-You’ll gain an applied understanding of why catch rates often need to be standardised, how to fit and interpret simple CPUE standardisation models in `R`, how to generate and visualise annual standardised indices, and how those indices are used within a stock assessment context. We’ll explore some conceptual conundrums, like targeting behaviour and fishing efficiency. The content will focus on practical modelling decisions and reproducible analysis.
-
-The workshop will be accessible to participants without a fisheries background. A basic understanding of `R` would be helpful.
-
-<h3>Presenters</h3>
-
-- Alise Fox (Queensland Department of Primary Industries)
-
-- Joanne Wortmann (Queensland Department of Primary Industries)
-
-</details>
-
-<details>
-
-<summary style="font-size: 1.5em; font-weight: bold; cursor: pointer;">
-
 BLUP and Bayesian methods for genomic prediction
 
 </summary>

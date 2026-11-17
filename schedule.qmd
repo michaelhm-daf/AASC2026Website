@@ -8,7 +8,9 @@ format:
 ## Schedule 
 The schedule at a glance can be found <a href="images/ProgramLayout.png">here</a>.
 
-The information shown below is current as of the 20th October 2026. The schedule is subject to change without notice.
+The conference booklet can be found <a href="files/AppliedStats2026Booklet.pdf">here</a>.
+
+The information shown below is current as of the 17th November 2026. The schedule is subject to change without notice.
 
 
 ```{r}

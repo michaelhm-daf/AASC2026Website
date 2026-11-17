@@ -46,7 +46,7 @@ days:
 
       - time: "08:00-08:45"
         type: registration
-        title: "Registration"
+        title: "Registration desk open"
 
       - time: "08:45-09:05"
         type: opening
@@ -304,7 +304,7 @@ days:
         type: panel
         title: "Poster session (1 minute talks)"
 
-      - time: "17:00-19:00"
+      - time: "17:15-19:30"
         type: social
         title: "Poster session"
   
@@ -312,7 +312,7 @@ days:
 
     sessions:
 
-      - time: "17:00-19:00"
+      - time: "17:15-19:30"
         type: keynote 
         title: "Poster session"
         
@@ -482,17 +482,16 @@ days:
             bio: |  
               Michael is currently employed as a biometrician at the Queensland Department of Primary Industries in Toowoomba, Australia. Michael works across numerous crop science projects, focusing on the design and analysis of agricultural experiments. Michael is also completing PhD studies part-time, researching improved statistical methodologies for the analysis of comparative scientific experiments.         
   
-          - title: "Unconditioning Fisher’s Exact Test"
+          - title: "Discrete Copula Lautum Information and Parsimonious Modelling"
             speaker: "Mst Bithi Akter (17)"  
 
             abstract: |
-              The Analysis of 2 × 2 contingency tables remain one of the oldest problems in statistics, and it is still very much with us today. Fisher’s exact test is popular for its reliable type I error control, but it is known to be conservative, with its actual significance level often lower than the intended level. This can cause a noticeable loss of statistical power, especially when sample sizes are small.
+              Copula modelling is fundamentally intended to separate marginal behaviour from dependence. Yet, for bivariate discrete distributions, classical copulas do not achieve such a clean separation: they are not uniquely identified, and familiar copula-based measures of association generally retain a dependence on the margins. We work instead with the discrete copula matrix, defined as the reverse Kullback–Leibler (RKL) projection of the joint probability matrix onto the class of matrices with discrete uniform margins. Under suitable support conditions, this construction produces a unique, margin-free representation of the dependence structure.
 
-              The exact unconditional test has become much more popular in recent decades, due to increasing computing power and availability of statistical software. Still, its conservatism is a major issue, especially when working with different sampling designs. In this study, we propose a novel method that addresses the conservativeness of the unconditional exact test in both one-fixed-margin and no-fixed-margin designs.
+              This paper addresses two questions arising naturally from that construction: how should the overall departure from independence be quantified, and how can the copula matrix be represented parsimoniously? We introduce discrete copula lautum information, defined as the RKL divergence from the independence copula to the discrete copula, and derive the large-sample behaviour of its empirical estimator.
 
-              We look at three common sampling frameworks in this study: two fixed margins, one fixed margin, and no fixed margins. Using recent advances in binomial and multinomial sampling models, we systematically compare our method to existing exact and unconditional tests. We focus on type I error control, power, and robustness across a wide range of parameter settings.
+              For parsimonious modelling, copula matrices are represented through selected directions in the linear space of matrices with zero row and column sums. Along nested reduced models, the RKL-projection geometry yields an exact decomposition of total copula lautum information into contributions from successive directions and a residual component. This naturally motivates a greedy procedure in which directions are selected according to the additional dependence information they capture. The resulting framework produces interpretable, low-dimensional parametric models while keeping dependence measurement, model selection and estimation within the same information-geometric construction
 
-              Our approach offers a good balance between type I error and higher power. By reducing conservativeness in both fixed-margin and no-fixed-margin designs, this work helps develop more efficient exact methods for analyzing small and moderate samples. The study also highlights the ongoing need to revisit classic problems in contingency table analysis with modern computational and methodological tools.          
             bio: |  
               Mst Bithi Akter is a PhD student in Statistics at the School of Mathematics and Statistics, UNSW Sydney. My research focuses on Statistical Inference, Discrete Copula models, discrete data analysis and model development and statistical methodology for discrete outcomes.          
  
@@ -714,7 +713,7 @@ days:
 
       - time: "08:30-09:00"
         type: registration
-        title: "Registration"
+        title: "Registration desk open"
 
       - time: "09:00-09:05"
         type: opening
@@ -902,7 +901,7 @@ days:
         type: break
         title: "Afternoon Tea"        
 
-      - time: "15:30-16:30"
+      - time: "15:30-16:15"
         type: talk
         session_no: "Contributed Session #10"
         chair: "Kerry Bell"

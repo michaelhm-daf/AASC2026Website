@@ -23,6 +23,7 @@ website:
           -  href: keynote.qmd
           -  href: workshop.qmd
           - href: social.qmd
+          - href: dinner.qmd
       - abstracts.qmd 
       - registration.qmd
       - text: About 

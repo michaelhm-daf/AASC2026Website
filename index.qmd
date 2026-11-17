@@ -16,8 +16,6 @@ data science enthusiasts in a friendly and welcoming setting.
 
 ![](images/MooloolabaBeach.jpg)
 
-# [Conference registration is now open](https://aasc2026.netlify.app/registration)
-
 ## <i class="fas fa-calendar"></i> Important dates
 
 {{< include _dates.qmd >}}

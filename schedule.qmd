@@ -251,3 +251,13 @@ for(day in program$days){
 
 cat(":::\n")
 ```
+
+
+## Oral presentations
+Please email your presentation slides to [Colleen Hunt](mailto:colleen.hunt@dpi.qld.gov.au) no later than the session prior to your presentation, but preferably the day before your presentation. We recommend that you also bring a backup copy of your presentation with you.
+
+## Posters
+Please bring your printed posters with you to the conference. Poster boards will be available for mounting posters from Monday afternoon. We ask that all posters be mounted by no later than afternoon tea on Tuesday. Each poster presenter has been assigned a poster board – please review your poster acceptance email for your allocated board number. All posters are planned to be displayed for the duration of the conference (following the Poster Session on Tuesday evening), to enable further perusal and conversation during breaks.
+
+Poster presenters will also be asked to give a short (45 – 60 second) pitch of their poster at the beginning of the Poster Session. Presenters can contribute one slide to aid their pitch – refer to the email sent to all poster presenters by [Kerry Bell](mailto:Kerry.Bell@dpi.qld.gov.au) on 19/11/26 for further information.
+

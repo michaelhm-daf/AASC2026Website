@@ -144,7 +144,7 @@
     "href": "location.html",
     "title": "Location",
     "section": "",
-    "text": "The conference venue is located in the heart of Mooloolaba, which is a short 12 minute drive from the Sunshine Coast airport. Direct flights to and from the Sunshine Coast are available via Sydney, Melbourne, Adelaide, Cairns, and Auckland. Alternatively, the conference venue is about a 90 minute drive from Brisbane domestic and international airport, with public transport options available."
+    "text": "AASC2026 is being held at the Mantra Mooloolabam, located at 7 Venning St, Mooloolaba."
   },
   {
     "objectID": "registration.html",
@@ -215,5 +215,40 @@
     "title": "Conference dinner",
     "section": "",
     "text": "The conference dinner will be held at Marina Mooloolaba on Thursday evening the 3rd December from 5pm-10pm.\nThe dress code for the conference dinner is smart casual. The conference dinner venue is a premium waterfront dining and events destination. If in doubt, dress up!"
+  },
+  {
+    "objectID": "conduct.html",
+    "href": "conduct.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "The Australasian Genstat Users Association Inc. (AGUAi) is dedicated to providing a welcoming and harassment-free experience for everyone. We do not tolerate unprofessional or inappropriate conduct, which includes discrimination and harassment, sexual or otherwise. Conference participants should always work towards maintaining an environment free of harassment and discrimination. At the discretion of the AASC2026 organisers, any participants violating these rules may be asked to leave the conference, without any fee refund.\nParticipants agree to:\n\nBe considerate in speech and actions, and actively seek to acknowledge and respect the boundaries of fellow attendees at all times.\nRefrain from demeaning, discriminatory, or harassing behaviour and speech.\nAlert a member of the AASC council or conference organisers if they notice a dangerous situation, someone in distress, or violation of this code of conduct.\n\nHarassment is demeaning or threatening behaviour directed at an individual or a group of people. Harassment includes, but is not limited to,\n\nOffensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, person’s lifestyle choices and practices, physical appearance, age, race, religion (or lack thereof) or beliefs;\nUnwelcome sexual attention and behaviour including inappropriate sexual propositions; unnecessary touching; verbal or written comments or physical actions of a sexual nature; sexually degrading words used to describe an individual; a display of sexually suggestive objects or pictures; or sexually explicit jokes; and\nThreatening behaviour including bullying, threat of violence, deliberate intimidation, stalking or incitement of violence. Reporting\n\nIf you are being harassed by a member/guest/participant at AASC2026, or notice that someone else is being harassed, or have any other concerns, please contact the designated conference allies in the organising team. If the person who is harassing you is one of the allies, they will recuse themselves from handling your incident and will not be given any information without your explicit consent. We will respond as promptly as we can."
+  },
+  {
+    "objectID": "organisers.html#conference-allies",
+    "href": "organisers.html#conference-allies",
+    "title": "Organisers",
+    "section": "Conference allies",
+    "text": "Conference allies\n\nEmi Tanaka\nVanessa Cave\nMichael Mumford"
+  },
+  {
+    "objectID": "location.html#travel-from-sunshine-coast-airport-to-mantra-mooloolaba-beach",
+    "href": "location.html#travel-from-sunshine-coast-airport-to-mantra-mooloolaba-beach",
+    "title": "Location",
+    "section": "Travel from Sunshine Coast Airport to Mantra Mooloolaba Beach",
+    "text": "Travel from Sunshine Coast Airport to Mantra Mooloolaba Beach\nTaxis & Uber: The journey from the Sunshine Coast Airport to Mantra Mooloolaba Beach is approximately 13km, with an approximate fare of $60.\nPublic Transport: Buses regularly service the Sunshine Coast Airport, with the trip between the airport and Mantra Mooloolaba Beach estimated to take at least 45min and involve changing buses at least once. Bus fares in South-East Queensland are all 50c.\nDirect flights to and from the Sunshine Coast are available via Sydney, Melbourne, Adelaide, Cairns, and Auckland."
+  },
+  {
+    "objectID": "location.html#travel-from-brisbane-airport-domestic-international-to-mantra-mooloolaba-beach",
+    "href": "location.html#travel-from-brisbane-airport-domestic-international-to-mantra-mooloolaba-beach",
+    "title": "Location",
+    "section": "Travel from Brisbane Airport (Domestic & International) to Mantra Mooloolaba Beach",
+    "text": "Travel from Brisbane Airport (Domestic & International) to Mantra Mooloolaba Beach\nCar: The journey between Brisbane Airport and Mantra Mooloolaba Beach is approximately 100km, with an estimated travel time of 90min. Allow for longer in peak travel times.\nPublic Transport: Allow at least 2.75 hours, noting that multiple changes between trains and buses are required. Train and bus fares in South-East Queensland are all 50c, with the exception of the Airtrain (included in any journey departing from/ending at Brisbane Airport)."
+  },
+  {
+    "objectID": "conduct.html#reporting",
+    "href": "conduct.html#reporting",
+    "title": "Code of Conduct",
+    "section": "Reporting",
+    "text": "Reporting\nIf you are being harassed by a member/guest/participant at AASC2026, or notice that someone else is being harassed, or have any other concerns, please contact the designated conference allies in the organising team. If the person who is harassing you is one of the allies, they will recuse themselves from handling your incident and will not be given any information without your explicit consent. We will respond as promptly as we can."
   }
 ]

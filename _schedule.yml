@@ -28,7 +28,7 @@ days:
         type: break
         title: "Lunch"
         
-      - time: "15:00-16:30"
+      - time: "15:00-15:30"
         type: break
         title: "Afternoon Tea"
         
@@ -1063,7 +1063,7 @@ days:
             bio: |  
               Dr. Ruth Butler has worked as a biometrician/statistical consultant for more than 35 years, initially in the UK, then from the mid-1990s in New Zealand. She has primarily worked with bio-protection scientists (plant pathology, entomology), but also has significant experience working with other non-medical biological scientists including in soils/agronomy, food research and plant breeding. Ruth has been a Genstat user throughout her career, contributing around 10 Genstat procedures, and has been a beta tester of Genstat for 30 years. Ruth has also been a CycDesigN user since the very first version was released in 1997. Her interests are in good data management practices, well-designed experiments, and in improving communication between statisticians and scientists.
 
-      - time: "11:45-12:15"
+      - time: "11:45-12:30"
         type: opening
         title: "Closing ceremony"
         

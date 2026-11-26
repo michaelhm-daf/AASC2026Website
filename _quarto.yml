@@ -26,12 +26,12 @@ website:
           - href: dinner.qmd
       - abstracts.qmd 
       - registration.qmd
-      - conduct.qmd
       - text: About 
         menu: 
           - location.qmd
           - accommodation.qmd
           - organisers.qmd
+      - conduct.qmd
 format:
   html:
     code-fold: true

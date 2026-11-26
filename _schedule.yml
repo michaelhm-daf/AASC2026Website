@@ -233,8 +233,12 @@ days:
             speaker: "Qian Feng"
 
             abstract: |
-              Genomic prediction (GP) refers to the prediction of individual’s phenotypes using genome-wide information. In humans, GP has contributed substantially to the development of precision medicine, while in animal and plant breeding it has accelerated genetic gain by enabling earlier and more accurate selection. Traditional GP methods rely on individual-level genotype and phenotype data, which are often subject to privacy, ownership and data sharing restrictions. Recently, summary-statistics-based methods have emerged for GP by leveraging genome-wide association study (GWAS) summary statistics and linkage disequilibrium information from a reference population. These approaches avoid the need of individual-level data and have been widely applied in human genetics. However, their application in plant breeding, including cotton, remains very limited.
-              Here, we investigate the feasibility of summary-statistics-based genomic prediction using a large-scale cotton dataset collected over 40 year-site combinations in central-eastern Australia. Both genotype and phenotype data are available for this dataset, enabling the computation of GWAS summary statistics and a direct comparison between conventional Genomic Best Linear Unbiased Prediction (GBLUP) and a summary-statistics-based BLUP approach. Our empirical results show that the two methods achieve comparable prediction accuracy across multiple fibre yield and quality traits, consistent with theoretical expectations. We further evaluate how the choice of reference population and GWAS summary statistics information influences prediction performance. These results demonstrate the potential of summary-statistics-based GP in cotton and suggest that this approach could enable the use of larger, more diverse publicly available datasets to support the development of better cotton varieties.
+              Genomic prediction (GP) uses genome-wide DNA markers to predict plant performance, enabling earlier and more accurate selection in breeding programs. With the increasingly availability of genotypic and environmental data from multi-environment trials, GP models can incorporate genotype-by-environment interactions (G×E), which arise when genotype performance differs across environments. Meanwhile, GP methods now span from linear models to machine (deep) learning, each with its own strengths and weaknesses. Ensemble learning (EL) combines predictions from multiple methods and has emerged as a promising strategy for improving prediction. However, it remains unclear whether modelling G×E always benefits prediction, and whether EL can provide reliable predictions when no single method is consistently best. We addressed these questions using a large-scale dataset from CSIRO rain-grown cotton breeding program.
+
+              We compared a diverse range of GP methods: two linear methods under different model assumptions (GBLUP, BayesC), two machine learning methods (LightGBM, random forest), two deep learning methods with different model architectures (multilayer perceptron, Coformer). Methods were fitted with genotype and environment main effects only (G + E), with an added interaction term (G + E + G×E), or both, resulting in 10 model configurations. The dataset we examined comprised 1,121 breeding lines with genotypic, phenotypic and environmental records from trials over 23 years at four sites in central-eastern Australia. After building the model, we predicted the phenotypes of test data and measured predictive ability as the Pearson correlation between observed and predicted values. 
+
+              Results suggest that modelling G×E did not consistently improve predictive ability; its benefit depended on the specific GP method. No single method consistently performed the best for all eight traits, in line with the “no free lunch” principle that no algorithm is best for every problem. For lint yield, the most economically important trait in cotton, predictive ability varied considerably among methods, so relying on any one method is risky. In contrast, an ensemble combining all 10 models matched or exceeded the best individual model, eliminating the need to choose a method in advance. Overall, these results demonstrate EL as a robust and effective strategy for genomic prediction in cotton breeding.
+
             bio: |    
               Qian Feng is a CERC research fellow at CSIRO Agriculture and Food Unit. Her current research focuses on designing and implementing statistical methods to accelerate the breeding of Australian rain-grown cotton. She also interests in detecting evolutionary processes from pathogen and human genomes, including the recombination identification with hidden Markov models.
 
@@ -558,8 +562,23 @@ days:
               It has been demonstrated that resistance and tolerance proxies obtained from the genetic effects are independent of grain yield potential and disease incidence, allowing for more efficient selection decisions. As the genetic effects can be partitioned into additive and non-additive components, not only can improved lines be detected, but it is also possible to select potential parents for future crosses. These results are key in developing lines with better performance under disease pressure to ensure yield production for growers with or without the presence of the pathogen. 
           
             bio: |  
-              Lucas Peitton is a biometrician that works for the Queensland Department of Primary Industries through the Analytics for the Australian Grain Industry iniative funded by the Grains Research & Development Corporation. He has a Bachelor of Science with Major in Statistics from the National University of Rosario, Argentina. His interests are mainly related to quantitative genetics and R coding.            
-        
+              Lucas Peitton is a biometrician that works for the Queensland Department of Primary Industries through the Analytics for the Australian Grain Industry initiative funded by the Grains Research & Development Corporation. He has a Bachelor of Science with Major in Statistics from the National University of Rosario, Argentina. His interests are mainly related to quantitative genetics and R coding.            
+
+          - title: "Use of in-field technology to measure cattle weights in a small-scale trial. A case study using the Optiweigh machine."
+            speaker: "Angela Anderson (25)"  
+
+            abstract: |
+              Accurate weight measurements in cattle trials are typically collected using a static set of scales in yards. An alternative is the portable Optiweigh machine, which enables estimation of an in-field total weight measurement by interpolating the weight from when the front limbs are placed on its platform. This study quantifies the agreement between static yard weights and the Optiweigh weights in a small-scale trial.
+
+              Three years of data were investigated from a trial at Brian Pastures Research Facility, Gayndah, Qld. Steers were run in two treatment paddocks: open pasture (n=8 steers) and pasture with planted tree rows (n=6 steers) (Year 1 mean 243kg, SD=10kg, n=14). An Optiweigh machine was placed in each paddock. Yard weights were compared with Optiweigh weights from a single day and also with the average Optiweigh weights over the week prior to the yard weighing.
+
+              Preliminary results from the initial year using the Shapiro-Wilks and Kolmogorov-Smirnov tests showed no significant deviation from normality (p>0.05) for the yard or the Optiweigh weights. Bland Altman plots showed random scatter around the mean across the range of weights. Mean differences were 4.2kg (SD=7.8kg, n=14) for the single day measure and 5.3kg (SD=7.9kg, n=14) for the weekly average. Lin’s concordance correlation coefficient values for yard weight and Optiweigh weights were 0.69 for both the single day and for the weekly average (increasing to 0.96 in year 3). Linear regressions confirmed good agreement between yard and Optiweigh weights for weekly averages. However, on some occasions, significantly different trends were evident when a treatment term was included in the model. Limitations of small sample size and confounding with machine are acknowledged.
+
+              Whilst similar agreement between yard weight and Optiweigh weight was achieved when considering data from all treatments combined, the differing trends between treatment groups highlights the need for careful analysis in small trials
+
+            bio: |  
+              Angela is a senior Biometrician with the Queensland Department of Primary Industries.  She has been based on Departmental Research Facilities that run as working cattle stations for over ten years of her career.  This has given her valuable insights to the practicalities of collecting data through to analysing the data from beef cattle research trials.
+       
   - name: "Wednesday 2 December 2026"
 
     sessions:
@@ -801,7 +820,8 @@ days:
 
               Our simulation studies show CSSpatialNet provides more accurate estimation of the cell-type-specific covariance matrices than competing methods that either ignore cell-type or discard spatial information  Additionally, CSSpatialNet estimates the spatial autocorrelation of each gene within each cell type. We are also evaluating our method on real spatial transcriptomics data at a range of resolutions, such as Visium Mouse Embryo data. By accounting for the varying levels of spatial autocorrelation among genes and cell types, we expect to see more accurate cell-type-specific gene co-expression estimates.  
 
-            bio: |              
+            bio: |     
+              I am a third year PhD candidate at the University of Sydney, where I am researching statistical methods for spatial transcriptomics data. Before this current project, I worked on a sufficient dimension reduction approach for spatial transcriptomics data. 
 
           - time: "11:30-11:45"
             title: "From Pixels to Phenotypes: Building Statistical Pipelines for Drone-Based Field Experiments"
@@ -813,6 +833,8 @@ days:
               The 2023 heterosis trial included 150 inbred lines and 457 hybrid crosses. Early biomass was predicted at two time points using both destructive weight measurements and estimates obtained from drone imagery. A multi-trait dynamic linear mixed model was applied to evaluate the accuracy of the image-based predictions. Results demonstrated a high correlation between destructive measurements and imaging estimates, indicating that biomass imaging for early sorghum biomass assessment is both reliable and effective.
 
             bio: |  
+              I am a Principal Biometrician at the Queensland Department of Primary Industries and a Research Fellow at The University of Queensland with over 30 years of experience. I develop statistical methods and software for agricultural research, with a focus on genomic prediction, mixed models, and high-throughput phenotyping. My work bridges statistics, crop science, and reproducible data analysis.
+            
             
           - time: "11:45-12:00"
             title: "Multi-trait multi-environment models enhances prediction and interpretation of grain yield in wheat field trials"
